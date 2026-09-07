@@ -1,0 +1,22 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "functions": { "api/subscribe.js": { "maxDuration": 20 } },
+  "headers": [
+    {"source":"/(.*)","headers":[
+      {"key":"X-Content-Type-Options","value":"nosniff"},
+      {"key":"Referrer-Policy","value":"strict-origin-when-cross-origin"},
+      {"key":"X-Frame-Options","value":"DENY"},
+      {"key":"Permissions-Policy","value":"camera=(), microphone=(), geolocation=()"},
+      {"key":"Content-Security-Policy","value":"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' https://github.com; upgrade-insecure-requests"}
+    ]},
+    {"source":"/data/(.*)","headers":[{"key":"Access-Control-Allow-Origin","value":"*"},{"key":"Cache-Control","value":"public, max-age=300, stale-while-revalidate=600"}]},
+    {"source":"/feed.json","headers":[{"key":"Content-Type","value":"application/feed+json; charset=utf-8"},{"key":"Access-Control-Allow-Origin","value":"*"}]},
+    {"source":"/feed.xml","headers":[{"key":"Content-Type","value":"application/rss+xml; charset=utf-8"},{"key":"Access-Control-Allow-Origin","value":"*"}]},
+    {"source":"/openapi.json","headers":[{"key":"Access-Control-Allow-Origin","value":"*"}]}
+  ]
+}

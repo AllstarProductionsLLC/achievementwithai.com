@@ -1,0 +1,16 @@
+name: Suggest a correction
+description: Report a factual error, attribution issue, or broken source link.
+title: '[Correction] '
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should change, and what is the supporting source?
+    validations:
+      required: true

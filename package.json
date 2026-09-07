@@ -1,0 +1,19 @@
+{
+  "name": "achievement-with-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "refresh": "node scripts/refresh.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.2.8",
+    "@fontsource-variable/space-grotesk": "^5.2.10",
+    "fast-xml-parser": "^5.3.8"
+  }
+}
