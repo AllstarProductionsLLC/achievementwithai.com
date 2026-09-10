@@ -1,46 +1,130 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-09T11:27:11.477Z",
-  "checkedAt": "2026-09-09T11:27:11.477Z",
+  "updatedAt": "2026-09-10T11:23:28.789Z",
+  "checkedAt": "2026-09-10T11:23:28.789Z",
   "status": "current",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "status": "ok",
-      "checkedAt": "2026-09-09T11:27:11.477Z",
-      "itemCount": 1180
+      "checkedAt": "2026-09-10T11:23:28.789Z",
+      "itemCount": 1183
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "status": "ok",
-      "checkedAt": "2026-09-09T11:27:11.477Z",
+      "checkedAt": "2026-09-10T11:23:28.789Z",
       "itemCount": 100
     },
     {
       "id": "huggingface",
       "name": "Hugging Face",
       "status": "ok",
-      "checkedAt": "2026-09-09T11:27:11.477Z",
-      "itemCount": 860
+      "checkedAt": "2026-09-10T11:23:28.789Z",
+      "itemCount": 861
     },
     {
       "id": "nvidia",
       "name": "NVIDIA",
       "status": "ok",
-      "checkedAt": "2026-09-09T11:27:11.477Z",
+      "checkedAt": "2026-09-10T11:23:28.789Z",
       "itemCount": 14
     },
     {
       "id": "mit",
       "name": "MIT News",
       "status": "ok",
-      "checkedAt": "2026-09-09T11:27:11.477Z",
+      "checkedAt": "2026-09-10T11:23:28.789Z",
       "itemCount": 50
     }
   ],
   "items": [
+    {
+      "id": "075fed980e67c6",
+      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "summary": "",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "source": "Hugging Face",
+      "sourceId": "huggingface",
+      "topic": "agents",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "5a44a553904294",
+      "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
+      "url": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
+      "summary": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for…",
+      "publishedAt": "2026-09-09T20:40:00.000Z",
+      "source": "MIT News",
+      "sourceId": "mit",
+      "topic": "education",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "3eb3e9557eb703",
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "publishedAt": "2026-09-09T17:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "bcd233b8a28d7c",
+      "title": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
+      "url": "https://blogs.nvidia.com/blog/ibc-news-2026/",
+      "summary": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology and business communities are coming together to turn ideas into…",
+      "publishedAt": "2026-09-09T16:00:42.000Z",
+      "source": "NVIDIA",
+      "sourceId": "nvidia",
+      "topic": "creativity",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "46660cb2ea4362",
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "summary": "",
+      "publishedAt": "2026-09-09T15:36:24.000Z",
+      "source": "Hugging Face",
+      "sourceId": "huggingface",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "a7c183de5112de",
+      "title": "The AI policy window is open. We need to act.",
+      "url": "https://openai.com/index/ai-policy-window",
+      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains…",
+      "publishedAt": "2026-09-09T13:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "333ccaae81484d",
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "publishedAt": "2026-09-09T11:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "creativity",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
     {
       "id": "503e9c2326e78f",
       "title": "How GPT-5.6 Sol helps run quantum computing experiments",
@@ -246,18 +330,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "325e9dcd840a97",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with…",
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "gaming",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "9281d6906e8350",
       "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
       "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
@@ -266,6 +338,18 @@
       "source": "OpenAI",
       "sourceId": "openai",
       "topic": "finance",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "325e9dcd840a97",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with…",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "gaming",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -385,18 +469,6 @@
       "publishedAt": "2026-09-02T15:00:00.000Z",
       "source": "MIT News",
       "sourceId": "mit",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "8c10bd00da2e47",
-      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
-      "summary": "",
-      "publishedAt": "2026-09-02T13:49:14.000Z",
-      "source": "Hugging Face",
-      "sourceId": "huggingface",
       "topic": "frontier",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
@@ -558,30 +630,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "0b5a688ac44522",
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "url": "https://openai.com/index/polimill",
-      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "publishedAt": "2026-08-31T07:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "8a7cdd78fd4838",
-      "title": "A milestone in expanding access to AI",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable…",
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "97eaaf36b3550f",
       "title": "How an MIT research project became a global programming language",
       "url": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
@@ -590,18 +638,6 @@
       "source": "MIT News",
       "sourceId": "mit",
       "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "b42ac281ecaf56",
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-      "publishedAt": "2026-08-28T06:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "frontier",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -1038,30 +1074,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "60eee3fc9750e1",
-      "title": "Why Scaling AI Compute Performance Requires a New Power Architecture",
-      "url": "https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory/",
-      "summary": "Every new generation of accelerated computing demands more from the infrastructure underneath it — more compute performance, higher rack density and more…",
-      "publishedAt": "2026-08-11T15:00:06.000Z",
-      "source": "NVIDIA",
-      "sourceId": "nvidia",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "077b61a0fed02b",
-      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "summary": "",
-      "publishedAt": "2026-08-11T13:37:10.000Z",
-      "source": "Hugging Face",
-      "sourceId": "huggingface",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "f0885d2d71f199",
       "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
       "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
@@ -1283,18 +1295,6 @@
       "url": "https://news.mit.edu/2026/turning-2d-designs-into-3d-models-for-rapid-prototyping-0716",
       "summary": "Researchers developed an automated framework that helps AI models generate CAD programs more accurately and efficiently.",
       "publishedAt": "2026-07-16T04:00:00.000Z",
-      "source": "MIT News",
-      "sourceId": "mit",
-      "topic": "creativity",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "2dfc72794bbe6e",
-      "title": "3 Questions: Neural transparency and the future of AI design",
-      "url": "https://news.mit.edu/2026/3-questions-neural-transparency-and-future-of-ai-design-0715",
-      "summary": "Assistant Professor Pat Pataranutaporn describes a new interface that lets everyday users glimpse inside an AI's neural network before their chatbot ever…",
-      "publishedAt": "2026-07-15T20:25:00.000Z",
       "source": "MIT News",
       "sourceId": "mit",
       "topic": "creativity",

@@ -1438,5 +1438,89 @@
     "topic": "agents",
     "kind": "news",
     "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "075fed980e67c6",
+    "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+    "url": "https://huggingface.co/blog/gradio-workflow-1111",
+    "summary": "",
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "source": "Hugging Face",
+    "sourceId": "huggingface",
+    "topic": "agents",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "5a44a553904294",
+    "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
+    "url": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
+    "summary": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for…",
+    "publishedAt": "2026-09-09T20:40:00.000Z",
+    "source": "MIT News",
+    "sourceId": "mit",
+    "topic": "education",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "3eb3e9557eb703",
+    "title": "Paul Christiano joins OpenAI Foundation Board",
+    "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+    "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+    "publishedAt": "2026-09-09T17:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "bcd233b8a28d7c",
+    "title": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
+    "url": "https://blogs.nvidia.com/blog/ibc-news-2026/",
+    "summary": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology and business communities are coming together to turn ideas into…",
+    "publishedAt": "2026-09-09T16:00:42.000Z",
+    "source": "NVIDIA",
+    "sourceId": "nvidia",
+    "topic": "creativity",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "46660cb2ea4362",
+    "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+    "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+    "summary": "",
+    "publishedAt": "2026-09-09T15:36:24.000Z",
+    "source": "Hugging Face",
+    "sourceId": "huggingface",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "a7c183de5112de",
+    "title": "The AI policy window is open. We need to act.",
+    "url": "https://openai.com/index/ai-policy-window",
+    "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains…",
+    "publishedAt": "2026-09-09T13:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "333ccaae81484d",
+    "title": "GPT-6 Astra: The next generation in intelligence for work",
+    "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+    "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+    "publishedAt": "2026-09-09T11:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "creativity",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
   }
 ]
