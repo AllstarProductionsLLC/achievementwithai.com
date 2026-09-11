@@ -1522,5 +1522,113 @@
     "topic": "creativity",
     "kind": "news",
     "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "c9f232e078296c",
+    "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+    "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+    "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t…",
+    "publishedAt": "2026-09-10T16:30:35.000Z",
+    "source": "NVIDIA",
+    "sourceId": "nvidia",
+    "topic": "robotics",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "7aa7a69d878311",
+    "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+    "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+    "summary": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6…",
+    "publishedAt": "2026-09-10T16:00:04.000Z",
+    "source": "NVIDIA",
+    "sourceId": "nvidia",
+    "topic": "robotics",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "39842fa0b34b37",
+    "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+    "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+    "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+    "publishedAt": "2026-09-10T16:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "agents",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "6a886414536a09",
+    "title": "Now everyone can put data to work",
+    "url": "https://openai.com/index/put-data-to-work",
+    "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+    "publishedAt": "2026-09-10T15:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "agents",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "5d4dbf40361366",
+    "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
+    "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+    "summary": "AI inference chipmaker d-Matrix today announced it will use NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform…",
+    "publishedAt": "2026-09-10T13:00:21.000Z",
+    "source": "NVIDIA",
+    "sourceId": "nvidia",
+    "topic": "creativity",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "0bb946f0c42153",
+    "title": "Introducing ChatGPT for Financial Services",
+    "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+    "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+    "publishedAt": "2026-09-10T07:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "finance",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "3802aa15c4b6ae",
+    "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+    "url": "https://openai.com/index/expanding-ai-access-us-government",
+    "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense…",
+    "publishedAt": "2026-09-10T07:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "b8a75fb67d8179",
+    "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+    "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+    "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "music",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "b32e9b84713539",
+    "title": "Introducing the Agents API",
+    "url": "https://openai.com/index/introducing-the-agents-api",
+    "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and…",
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "agents",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
   }
 ]

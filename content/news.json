@@ -1,46 +1,154 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-10T11:23:28.789Z",
-  "checkedAt": "2026-09-10T11:23:28.789Z",
+  "updatedAt": "2026-09-11T11:25:29.141Z",
+  "checkedAt": "2026-09-11T11:25:29.141Z",
   "status": "current",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "status": "ok",
-      "checkedAt": "2026-09-10T11:23:28.789Z",
-      "itemCount": 1183
+      "checkedAt": "2026-09-11T11:25:29.141Z",
+      "itemCount": 1189
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "status": "ok",
-      "checkedAt": "2026-09-10T11:23:28.789Z",
+      "checkedAt": "2026-09-11T11:25:29.141Z",
       "itemCount": 100
     },
     {
       "id": "huggingface",
       "name": "Hugging Face",
       "status": "ok",
-      "checkedAt": "2026-09-10T11:23:28.789Z",
+      "checkedAt": "2026-09-11T11:25:29.141Z",
       "itemCount": 861
     },
     {
       "id": "nvidia",
       "name": "NVIDIA",
       "status": "ok",
-      "checkedAt": "2026-09-10T11:23:28.789Z",
+      "checkedAt": "2026-09-11T11:25:29.141Z",
       "itemCount": 14
     },
     {
       "id": "mit",
       "name": "MIT News",
       "status": "ok",
-      "checkedAt": "2026-09-10T11:23:28.789Z",
+      "checkedAt": "2026-09-11T11:25:29.141Z",
       "itemCount": 50
     }
   ],
   "items": [
+    {
+      "id": "c9f232e078296c",
+      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+      "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+      "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t…",
+      "publishedAt": "2026-09-10T16:30:35.000Z",
+      "source": "NVIDIA",
+      "sourceId": "nvidia",
+      "topic": "robotics",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "7aa7a69d878311",
+      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+      "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+      "summary": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6…",
+      "publishedAt": "2026-09-10T16:00:04.000Z",
+      "source": "NVIDIA",
+      "sourceId": "nvidia",
+      "topic": "robotics",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "39842fa0b34b37",
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "publishedAt": "2026-09-10T16:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "agents",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "6a886414536a09",
+      "title": "Now everyone can put data to work",
+      "url": "https://openai.com/index/put-data-to-work",
+      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "publishedAt": "2026-09-10T15:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "agents",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "5d4dbf40361366",
+      "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
+      "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+      "summary": "AI inference chipmaker d-Matrix today announced it will use NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform…",
+      "publishedAt": "2026-09-10T13:00:21.000Z",
+      "source": "NVIDIA",
+      "sourceId": "nvidia",
+      "topic": "creativity",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "0bb946f0c42153",
+      "title": "Introducing ChatGPT for Financial Services",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "publishedAt": "2026-09-10T07:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "finance",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "3802aa15c4b6ae",
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense…",
+      "publishedAt": "2026-09-10T07:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "b8a75fb67d8179",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "music",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "b32e9b84713539",
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and…",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "agents",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
     {
       "id": "075fed980e67c6",
       "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
@@ -330,18 +438,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "9281d6906e8350",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in…",
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "finance",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "325e9dcd840a97",
       "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
       "url": "https://openai.com/index/playco-game-prototyping-with-astra",
@@ -350,6 +446,18 @@
       "source": "OpenAI",
       "sourceId": "openai",
       "topic": "gaming",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "9281d6906e8350",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in…",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "finance",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -474,18 +582,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "3bda12e16fd31e",
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory…",
-      "publishedAt": "2026-09-02T12:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "finance",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "ad90e6779ea304",
       "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
       "url": "https://huggingface.co/blog/allenai/benchmirt",
@@ -534,42 +630,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "b0cbef382238cd",
-      "title": "How AI-native companies turn workflows into operating capability",
-      "url": "https://openai.com/index/ai-native-company-workflows",
-      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-      "publishedAt": "2026-09-01T17:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "f2694bfa96c49e",
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "url": "https://openai.com/index/path-to-astra",
-      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-      "publishedAt": "2026-09-01T13:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "c0364833b41073",
-      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-      "publishedAt": "2026-09-01T12:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "science",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "7121e737b53f5c",
       "title": "Ila Kumar: Innovating with communities",
       "url": "https://news.mit.edu/2026/ila-kumar-innovates-with-communities-0901",
@@ -578,18 +638,6 @@
       "source": "MIT News",
       "sourceId": "mit",
       "topic": "education",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "330fba64551db8",
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "url": "https://openai.com/index/gilbert-tobin",
-      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-      "publishedAt": "2026-09-01T01:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "finance",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -613,18 +661,6 @@
       "publishedAt": "2026-08-31T19:30:00.000Z",
       "source": "MIT News",
       "sourceId": "mit",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "4862f3d2c68fb1",
-      "title": "OpenAI supports California’s bill to advance youth AI safety",
-      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-      "publishedAt": "2026-08-31T07:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
       "topic": "frontier",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
@@ -966,18 +1002,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "2fa073787938da",
-      "title": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
-      "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
-      "summary": "Indonesia is taking charge of its AI future. This week, the Ministry of Communication and Digital Affairs (Komdigi), Indosat Ooredoo Hutchison (Indosat…",
-      "publishedAt": "2026-08-14T17:13:05.000Z",
-      "source": "NVIDIA",
-      "sourceId": "nvidia",
-      "topic": "creativity",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "bc290ba394fd0d",
       "title": "State of Open Models: Summer 2026 Observations",
       "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
@@ -1046,30 +1070,6 @@
       "source": "Google DeepMind",
       "sourceId": "deepmind",
       "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "9424dd440dad42",
-      "title": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
-      "summary": "NVIDIA founder and CEO Jensen Huang is ranked No. 1 on Glassdoor’s Best CEOs list for 2026. In the just-released ranking, recognition…",
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "source": "NVIDIA",
-      "sourceId": "nvidia",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "6ae5efd1aaa57e",
-      "title": "NVIDIA AI Factory Compute Is Becoming an Investable Asset Class",
-      "url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
-      "summary": "We announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms designed to mobilize over $500…",
-      "publishedAt": "2026-08-12T00:38:21.000Z",
-      "source": "NVIDIA",
-      "sourceId": "nvidia",
-      "topic": "creativity",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
