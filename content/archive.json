@@ -1630,5 +1630,41 @@
     "topic": "agents",
     "kind": "news",
     "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "4aeb82da9975e2",
+    "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+    "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+    "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code…",
+    "publishedAt": "2026-09-11T16:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "agents",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "2d0dbb5662da80",
+    "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
+    "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
+    "summary": "The handheld catheterization device AI-GUIDE, created by Lincoln Laboratory and Massachusetts General Hospital, promises improved health outcomes for injured service members and…",
+    "publishedAt": "2026-09-11T13:45:00.000Z",
+    "source": "MIT News",
+    "sourceId": "mit",
+    "topic": "science",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "46fcf5bb7b9952",
+    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+    "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+    "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M…",
+    "publishedAt": "2026-09-11T10:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
   }
 ]

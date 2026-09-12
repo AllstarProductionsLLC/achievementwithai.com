@@ -1,46 +1,82 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-11T11:25:29.141Z",
-  "checkedAt": "2026-09-11T11:25:29.141Z",
+  "updatedAt": "2026-09-12T10:50:42.749Z",
+  "checkedAt": "2026-09-12T10:50:42.749Z",
   "status": "current",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "status": "ok",
-      "checkedAt": "2026-09-11T11:25:29.141Z",
-      "itemCount": 1189
+      "checkedAt": "2026-09-12T10:50:42.749Z",
+      "itemCount": 1191
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "status": "ok",
-      "checkedAt": "2026-09-11T11:25:29.141Z",
+      "checkedAt": "2026-09-12T10:50:42.749Z",
       "itemCount": 100
     },
     {
       "id": "huggingface",
       "name": "Hugging Face",
       "status": "ok",
-      "checkedAt": "2026-09-11T11:25:29.141Z",
+      "checkedAt": "2026-09-12T10:50:42.749Z",
       "itemCount": 861
     },
     {
       "id": "nvidia",
       "name": "NVIDIA",
       "status": "ok",
-      "checkedAt": "2026-09-11T11:25:29.141Z",
+      "checkedAt": "2026-09-12T10:50:42.749Z",
       "itemCount": 14
     },
     {
       "id": "mit",
       "name": "MIT News",
       "status": "ok",
-      "checkedAt": "2026-09-11T11:25:29.141Z",
+      "checkedAt": "2026-09-12T10:50:42.749Z",
       "itemCount": 50
     }
   ],
   "items": [
+    {
+      "id": "4aeb82da9975e2",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code…",
+      "publishedAt": "2026-09-11T16:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "agents",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "2d0dbb5662da80",
+      "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
+      "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
+      "summary": "The handheld catheterization device AI-GUIDE, created by Lincoln Laboratory and Massachusetts General Hospital, promises improved health outcomes for injured service members and…",
+      "publishedAt": "2026-09-11T13:45:00.000Z",
+      "source": "MIT News",
+      "sourceId": "mit",
+      "topic": "science",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "46fcf5bb7b9952",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M…",
+      "publishedAt": "2026-09-11T10:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
     {
       "id": "c9f232e078296c",
       "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
@@ -470,30 +506,6 @@
       "source": "NVIDIA",
       "sourceId": "nvidia",
       "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "039a4975e102cb",
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "url": "https://openai.com/index/gpt-6-astra",
-      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-      "publishedAt": "2026-09-03T11:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "creativity",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "39210f987919e8",
-      "title": "Safety overview: GPT-6 Astra",
-      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our…",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "frontier",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -1286,18 +1298,6 @@
       "source": "Google DeepMind",
       "sourceId": "deepmind",
       "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "660a6401b7178f",
-      "title": "A better way to turn 2D designs into 3D models for rapid prototyping",
-      "url": "https://news.mit.edu/2026/turning-2d-designs-into-3d-models-for-rapid-prototyping-0716",
-      "summary": "Researchers developed an automated framework that helps AI models generate CAD programs more accurately and efficiently.",
-      "publishedAt": "2026-07-16T04:00:00.000Z",
-      "source": "MIT News",
-      "sourceId": "mit",
-      "topic": "creativity",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
