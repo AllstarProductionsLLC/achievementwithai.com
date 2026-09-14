@@ -1,46 +1,82 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-13T11:56:27.623Z",
-  "checkedAt": "2026-09-13T11:56:27.623Z",
+  "updatedAt": "2026-09-14T12:53:01.522Z",
+  "checkedAt": "2026-09-14T12:53:01.522Z",
   "status": "current",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "status": "ok",
-      "checkedAt": "2026-09-13T11:56:27.623Z",
-      "itemCount": 1191
+      "checkedAt": "2026-09-14T12:53:01.522Z",
+      "itemCount": 1193
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "status": "ok",
-      "checkedAt": "2026-09-13T11:56:27.623Z",
+      "checkedAt": "2026-09-14T12:53:01.522Z",
       "itemCount": 100
     },
     {
       "id": "huggingface",
       "name": "Hugging Face",
       "status": "ok",
-      "checkedAt": "2026-09-13T11:56:27.623Z",
-      "itemCount": 861
+      "checkedAt": "2026-09-14T12:53:01.522Z",
+      "itemCount": 862
     },
     {
       "id": "nvidia",
       "name": "NVIDIA",
       "status": "ok",
-      "checkedAt": "2026-09-13T11:56:27.623Z",
+      "checkedAt": "2026-09-14T12:53:01.522Z",
       "itemCount": 14
     },
     {
       "id": "mit",
       "name": "MIT News",
       "status": "ok",
-      "checkedAt": "2026-09-13T11:56:27.623Z",
+      "checkedAt": "2026-09-14T12:53:01.522Z",
       "itemCount": 50
     }
   ],
   "items": [
+    {
+      "id": "2898a53d04394e",
+      "title": "New method enables AI for safety-critical situations",
+      "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
+      "summary": "The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.",
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "source": "MIT News",
+      "sourceId": "mit",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "dd371037d70c73",
+      "title": "MIT spinout turns plastic waste into resilient building materials",
+      "url": "https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914",
+      "summary": "Atlas Building Composites is commercializing MIT research to turn plastic waste into parts for buildings and other infrastructure.",
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "source": "MIT News",
+      "sourceId": "mit",
+      "topic": "creativity",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "968c32634dc2a1",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
     {
       "id": "4aeb82da9975e2",
       "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
@@ -162,6 +198,18 @@
       "attribution": "Publisher feed excerpt"
     },
     {
+      "id": "b32e9b84713539",
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and…",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "agents",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
       "id": "b8a75fb67d8179",
       "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
@@ -174,14 +222,14 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "b32e9b84713539",
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and…",
+      "id": "85052f9befba2c",
+      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "summary": "",
       "publishedAt": "2026-09-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "agents",
+      "source": "Hugging Face",
+      "sourceId": "huggingface",
+      "topic": "frontier",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -482,18 +530,6 @@
       "source": "OpenAI",
       "sourceId": "openai",
       "topic": "gaming",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "9281d6906e8350",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in…",
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "finance",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -1062,18 +1098,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "249a5e1ede4df4",
-      "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "summary": "",
-      "publishedAt": "2026-08-12T16:14:36.000Z",
-      "source": "Hugging Face",
-      "sourceId": "huggingface",
-      "topic": "creativity",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "c26c8d5a4e90c6",
       "title": "Putting sign language AI into users’ hands",
       "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
@@ -1230,18 +1254,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "712e645398d8b6",
-      "title": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83",
-      "url": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
-      "summary": "Known for his clear and elegant writing style, Bertsekas shaped fields from control and optimization to large-scale computation and artificial intelligence.",
-      "publishedAt": "2026-07-22T17:00:00.000Z",
-      "source": "MIT News",
-      "sourceId": "mit",
-      "topic": "creativity",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "e08c4d4e6d11f2",
       "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
       "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
@@ -1261,18 +1273,6 @@
       "publishedAt": "2026-07-21T15:16:30.000Z",
       "source": "Google DeepMind",
       "sourceId": "deepmind",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "1d65b95a04eb4a",
-      "title": "Following the questions where they lead",
-      "url": "https://news.mit.edu/2026/following-questions-where-they-lead-bailey-flanigan-0717",
-      "summary": "Assistant Professor Bailey Flanigan has arrived at complex computational methods for helping democracy thrive.",
-      "publishedAt": "2026-07-17T17:25:00.000Z",
-      "source": "MIT News",
-      "sourceId": "mit",
       "topic": "frontier",
       "kind": "news",
       "attribution": "Publisher feed excerpt"

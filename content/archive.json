@@ -1666,5 +1666,53 @@
     "topic": "frontier",
     "kind": "news",
     "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "2898a53d04394e",
+    "title": "New method enables AI for safety-critical situations",
+    "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
+    "summary": "The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "source": "MIT News",
+    "sourceId": "mit",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "dd371037d70c73",
+    "title": "MIT spinout turns plastic waste into resilient building materials",
+    "url": "https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914",
+    "summary": "Atlas Building Composites is commercializing MIT research to turn plastic waste into parts for buildings and other infrastructure.",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "source": "MIT News",
+    "sourceId": "mit",
+    "topic": "creativity",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "968c32634dc2a1",
+    "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+    "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+    "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "85052f9befba2c",
+    "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+    "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+    "summary": "",
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "source": "Hugging Face",
+    "sourceId": "huggingface",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
   }
 ]
