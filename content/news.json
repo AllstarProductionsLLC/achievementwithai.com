@@ -1,46 +1,82 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-14T12:53:01.522Z",
-  "checkedAt": "2026-09-14T12:53:01.522Z",
+  "updatedAt": "2026-09-15T11:47:34.110Z",
+  "checkedAt": "2026-09-15T11:47:34.110Z",
   "status": "current",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "status": "ok",
-      "checkedAt": "2026-09-14T12:53:01.522Z",
+      "checkedAt": "2026-09-15T11:47:34.110Z",
       "itemCount": 1193
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "status": "ok",
-      "checkedAt": "2026-09-14T12:53:01.522Z",
+      "checkedAt": "2026-09-15T11:47:34.110Z",
       "itemCount": 100
     },
     {
       "id": "huggingface",
       "name": "Hugging Face",
       "status": "ok",
-      "checkedAt": "2026-09-14T12:53:01.522Z",
+      "checkedAt": "2026-09-15T11:47:34.110Z",
       "itemCount": 862
     },
     {
       "id": "nvidia",
       "name": "NVIDIA",
       "status": "ok",
-      "checkedAt": "2026-09-14T12:53:01.522Z",
-      "itemCount": 14
+      "checkedAt": "2026-09-15T11:47:34.110Z",
+      "itemCount": 15
     },
     {
       "id": "mit",
       "name": "MIT News",
       "status": "ok",
-      "checkedAt": "2026-09-14T12:53:01.522Z",
+      "checkedAt": "2026-09-15T11:47:34.110Z",
       "itemCount": 50
     }
   ],
   "items": [
+    {
+      "id": "3092a9123492d9",
+      "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+      "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
+      "summary": "",
+      "publishedAt": "2026-09-15T09:00:42.000Z",
+      "source": "NVIDIA",
+      "sourceId": "nvidia",
+      "topic": "creativity",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "e52b0024cc5c06",
+      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+      "summary": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the…",
+      "publishedAt": "2026-09-14T15:00:52.000Z",
+      "source": "NVIDIA",
+      "sourceId": "nvidia",
+      "topic": "agents",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "7f82d995c515e5",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "music",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
     {
       "id": "2898a53d04394e",
       "title": "New method enables AI for safety-critical situations",
@@ -198,18 +234,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "b32e9b84713539",
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and…",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "b8a75fb67d8179",
       "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
@@ -218,6 +242,18 @@
       "source": "OpenAI",
       "sourceId": "openai",
       "topic": "music",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "b32e9b84713539",
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and…",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "agents",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -517,18 +553,6 @@
       "publishedAt": "2026-09-03T13:00:35.000Z",
       "source": "NVIDIA",
       "sourceId": "nvidia",
-      "topic": "gaming",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "325e9dcd840a97",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with…",
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
       "topic": "gaming",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
@@ -1034,18 +1058,6 @@
       "source": "Hugging Face",
       "sourceId": "huggingface",
       "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "b83997df209ee9",
-      "title": "Securing the Infrastructure of Intelligence",
-      "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
-      "summary": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every…",
-      "publishedAt": "2026-08-17T12:34:51.000Z",
-      "source": "NVIDIA",
-      "sourceId": "nvidia",
-      "topic": "finance",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
