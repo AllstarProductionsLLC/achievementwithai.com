@@ -1750,5 +1750,65 @@
     "topic": "music",
     "kind": "news",
     "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "0fd4d9111d18e2",
+    "title": "Measure by measure, studying society accurately",
+    "url": "https://news.mit.edu/2026/studying-society-accurately-naoki-egami-0916",
+    "summary": "Naoki Egami has become a standout in political methodology, helping refine tools that give scholars durable results.",
+    "publishedAt": "2026-09-16T04:00:00.000Z",
+    "source": "MIT News",
+    "sourceId": "mit",
+    "topic": "agents",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "6aae488b1bb65e",
+    "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+    "summary": "",
+    "publishedAt": "2026-09-15T17:05:57.000Z",
+    "source": "Google DeepMind",
+    "sourceId": "deepmind",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "01a0a7ededa6d9",
+    "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+    "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+    "summary": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a…",
+    "publishedAt": "2026-09-15T16:55:59.000Z",
+    "source": "NVIDIA",
+    "sourceId": "nvidia",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "856e25806ef9c8",
+    "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+    "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
+    "summary": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit,…",
+    "publishedAt": "2026-09-15T16:55:40.000Z",
+    "source": "NVIDIA",
+    "sourceId": "nvidia",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "a1d018f16fad79",
+    "title": "Your Agent Aced the Task. Will It Do It Again?",
+    "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+    "summary": "",
+    "publishedAt": "2026-09-15T16:00:44.000Z",
+    "source": "Hugging Face",
+    "sourceId": "huggingface",
+    "topic": "agents",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
   }
 ]
