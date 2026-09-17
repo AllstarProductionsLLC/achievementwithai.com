@@ -1,46 +1,142 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-16T11:39:20.084Z",
-  "checkedAt": "2026-09-16T11:39:20.084Z",
+  "updatedAt": "2026-09-17T11:45:25.250Z",
+  "checkedAt": "2026-09-17T11:45:25.250Z",
   "status": "current",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "status": "ok",
-      "checkedAt": "2026-09-16T11:39:20.084Z",
-      "itemCount": 1193
+      "checkedAt": "2026-09-17T11:45:25.250Z",
+      "itemCount": 1199
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "status": "ok",
-      "checkedAt": "2026-09-16T11:39:20.084Z",
+      "checkedAt": "2026-09-17T11:45:25.250Z",
       "itemCount": 100
     },
     {
       "id": "huggingface",
       "name": "Hugging Face",
       "status": "ok",
-      "checkedAt": "2026-09-16T11:39:20.084Z",
+      "checkedAt": "2026-09-17T11:45:25.250Z",
       "itemCount": 862
     },
     {
       "id": "nvidia",
       "name": "NVIDIA",
       "status": "ok",
-      "checkedAt": "2026-09-16T11:39:20.084Z",
+      "checkedAt": "2026-09-17T11:45:25.250Z",
       "itemCount": 14
     },
     {
       "id": "mit",
       "name": "MIT News",
       "status": "ok",
-      "checkedAt": "2026-09-16T11:39:20.084Z",
+      "checkedAt": "2026-09-17T11:45:25.250Z",
       "itemCount": 50
     }
   ],
   "items": [
+    {
+      "id": "f3899afd4d6a0a",
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "publishedAt": "2026-09-16T17:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "b0366f9850a9d1",
+      "title": "Helping older adults use AI in everyday life",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills…",
+      "publishedAt": "2026-09-16T16:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "c60864f3789439",
+      "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+      "summary": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more…",
+      "publishedAt": "2026-09-16T15:00:48.000Z",
+      "source": "NVIDIA",
+      "sourceId": "nvidia",
+      "topic": "finance",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "48b18568b4dcf1",
+      "title": "New AI technique could make minimally invasive surgeries safer and more precise",
+      "url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
+      "summary": "This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery.",
+      "publishedAt": "2026-09-16T15:00:00.000Z",
+      "source": "MIT News",
+      "sourceId": "mit",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "30148e42a74b50",
+      "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+      "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+      "summary": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as…",
+      "publishedAt": "2026-09-16T13:00:33.000Z",
+      "source": "NVIDIA",
+      "sourceId": "nvidia",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "6ac27c68838b29",
+      "title": "Reimagining advertising with AI",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "publishedAt": "2026-09-16T13:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "agents",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "4410122683c569",
+      "title": "How to connect AI usage to business value",
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business…",
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "finance",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "7d2872733a6147",
+      "title": "How workers are unlocking new ways of working",
+      "url": "https://openai.com/index/unlocking-new-ways-of-working",
+      "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "publishedAt": "2026-09-16T09:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "creativity",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
     {
       "id": "0fd4d9111d18e2",
       "title": "Measure by measure, studying society accurately",
@@ -294,18 +390,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "b8a75fb67d8179",
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "music",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "b32e9b84713539",
       "title": "Introducing the Agents API",
       "url": "https://openai.com/index/introducing-the-agents-api",
@@ -314,6 +398,18 @@
       "source": "OpenAI",
       "sourceId": "openai",
       "topic": "agents",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "b8a75fb67d8179",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "music",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -498,54 +594,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "a1b72811dd254b",
-      "title": "1Password increases engineering productivity 21% with Codex",
-      "url": "https://openai.com/index/1password",
-      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "073b13b14ae013",
-      "title": "Supporting independent journalism in Ukraine",
-      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "e0f75446731d59",
-      "title": "An Alien Mind",
-      "url": "https://openai.com/index/an-alien-mind",
-      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
-      "publishedAt": "2026-09-06T09:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "3784d7aba9718a",
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-      "publishedAt": "2026-09-06T08:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "c5fea2be4f2543",
       "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
       "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
@@ -566,18 +614,6 @@
       "source": "Google DeepMind",
       "sourceId": "deepmind",
       "topic": "science",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "fc40ddafdd41e0",
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-      "publishedAt": "2026-09-03T13:15:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "frontier",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -834,18 +870,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "66d1ddc5894815",
-      "title": "Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
-      "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-      "summary": "NVIDIA Vice President of Hyperscale and HPC Ian Buck hand-delivers Vera CPU systems across the AI ecosystem as Vera begins shipping at…",
-      "publishedAt": "2026-08-27T13:00:17.000Z",
-      "source": "NVIDIA",
-      "sourceId": "nvidia",
-      "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "f0dc85dcc6d344",
       "title": "Piloting the world's first double-blind AI evaluations",
       "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
@@ -854,18 +878,6 @@
       "source": "Google DeepMind",
       "sourceId": "deepmind",
       "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "52343a01221667",
-      "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
-      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
-      "summary": "The next wave of AI is placing new demands on infrastructure. As AI agents and trillion-parameter workloads become mainstream, the performance of…",
-      "publishedAt": "2026-08-26T21:05:30.000Z",
-      "source": "NVIDIA",
-      "sourceId": "nvidia",
-      "topic": "creativity",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -1238,18 +1250,6 @@
       "source": "Google DeepMind",
       "sourceId": "deepmind",
       "topic": "music",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "1fb8820b9fa3c3",
-      "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
-      "url": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
-      "summary": "The visionary PhysioNet platform launched 25 years ago, based on a system developed at MIT in the 1970s. It has become one…",
-      "publishedAt": "2026-07-29T14:00:00.000Z",
-      "source": "MIT News",
-      "sourceId": "mit",
-      "topic": "frontier",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },

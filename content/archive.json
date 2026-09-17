@@ -1810,5 +1810,101 @@
     "topic": "agents",
     "kind": "news",
     "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "f3899afd4d6a0a",
+    "title": "Our framework for reporting model misalignment",
+    "url": "https://openai.com/index/model-misalignment-reporting-framework",
+    "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+    "publishedAt": "2026-09-16T17:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "b0366f9850a9d1",
+    "title": "Helping older adults use AI in everyday life",
+    "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+    "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills…",
+    "publishedAt": "2026-09-16T16:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "c60864f3789439",
+    "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+    "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+    "summary": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more…",
+    "publishedAt": "2026-09-16T15:00:48.000Z",
+    "source": "NVIDIA",
+    "sourceId": "nvidia",
+    "topic": "finance",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "48b18568b4dcf1",
+    "title": "New AI technique could make minimally invasive surgeries safer and more precise",
+    "url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
+    "summary": "This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery.",
+    "publishedAt": "2026-09-16T15:00:00.000Z",
+    "source": "MIT News",
+    "sourceId": "mit",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "30148e42a74b50",
+    "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+    "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+    "summary": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as…",
+    "publishedAt": "2026-09-16T13:00:33.000Z",
+    "source": "NVIDIA",
+    "sourceId": "nvidia",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "6ac27c68838b29",
+    "title": "Reimagining advertising with AI",
+    "url": "https://openai.com/index/reimagining-advertising-with-ai",
+    "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+    "publishedAt": "2026-09-16T13:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "agents",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "4410122683c569",
+    "title": "How to connect AI usage to business value",
+    "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+    "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business…",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "finance",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "7d2872733a6147",
+    "title": "How workers are unlocking new ways of working",
+    "url": "https://openai.com/index/unlocking-new-ways-of-working",
+    "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+    "publishedAt": "2026-09-16T09:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "creativity",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
   }
 ]
