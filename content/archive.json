@@ -1906,5 +1906,29 @@
     "topic": "creativity",
     "kind": "news",
     "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "d22acfa5d0cc1d",
+    "title": "How Cooley is accelerating IPO work with ChatGPT",
+    "url": "https://openai.com/index/cooley-gopublic",
+    "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment…",
+    "publishedAt": "2026-09-17T12:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "frontier",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "192794312f979c",
+    "title": "Introducing Astra for Law",
+    "url": "https://openai.com/index/astra-for-law",
+    "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+    "publishedAt": "2026-09-17T00:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "agents",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
   }
 ]
