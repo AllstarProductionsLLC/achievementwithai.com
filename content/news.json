@@ -1,46 +1,70 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-18T11:19:40.863Z",
-  "checkedAt": "2026-09-18T11:19:40.863Z",
+  "updatedAt": "2026-09-19T11:03:31.765Z",
+  "checkedAt": "2026-09-19T11:03:31.765Z",
   "status": "current",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "status": "ok",
-      "checkedAt": "2026-09-18T11:19:40.863Z",
-      "itemCount": 1208
+      "checkedAt": "2026-09-19T11:03:31.765Z",
+      "itemCount": 1210
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "status": "ok",
-      "checkedAt": "2026-09-18T11:19:40.863Z",
+      "checkedAt": "2026-09-19T11:03:31.765Z",
       "itemCount": 100
     },
     {
       "id": "huggingface",
       "name": "Hugging Face",
       "status": "ok",
-      "checkedAt": "2026-09-18T11:19:40.863Z",
+      "checkedAt": "2026-09-19T11:03:31.765Z",
       "itemCount": 862
     },
     {
       "id": "nvidia",
       "name": "NVIDIA",
       "status": "ok",
-      "checkedAt": "2026-09-18T11:19:40.863Z",
+      "checkedAt": "2026-09-19T11:03:31.765Z",
       "itemCount": 14
     },
     {
       "id": "mit",
       "name": "MIT News",
       "status": "ok",
-      "checkedAt": "2026-09-18T11:19:40.863Z",
+      "checkedAt": "2026-09-19T11:03:31.765Z",
       "itemCount": 50
     }
   ],
   "items": [
+    {
+      "id": "a2f038ddf6ba57",
+      "title": "A new chapter for MIT Reads",
+      "url": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
+      "summary": "A new focus on fiction and memoir aims to help the MIT community celebrate the power of storytelling and strengthen social connection.",
+      "publishedAt": "2026-09-18T16:30:00.000Z",
+      "source": "MIT News",
+      "sourceId": "mit",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "a00923bf4ddda7",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
     {
       "id": "d22acfa5d0cc1d",
       "title": "How Cooley is accelerating IPO work with ChatGPT",
@@ -131,6 +155,18 @@
       "url": "https://openai.com/index/reimagining-advertising-with-ai",
       "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
       "publishedAt": "2026-09-16T13:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "agents",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "27cd99b1dbe344",
+      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "url": "https://openai.com/index/hex-gpt-6-astra",
+      "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+      "publishedAt": "2026-09-16T12:00:00.000Z",
       "source": "OpenAI",
       "sourceId": "openai",
       "topic": "agents",
@@ -414,18 +450,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "b32e9b84713539",
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and…",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "b8a75fb67d8179",
       "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
@@ -434,6 +458,18 @@
       "source": "OpenAI",
       "sourceId": "openai",
       "topic": "music",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "b32e9b84713539",
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and…",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "agents",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -566,30 +602,6 @@
       "source": "OpenAI",
       "sourceId": "openai",
       "topic": "finance",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "1dcea8b0f8acab",
-      "title": "Introducing ChatGPT Images 2.5",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-      "publishedAt": "2026-09-08T11:30:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "creativity",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "2c827cba158d2f",
-      "title": "On the Navier–Stokes Millennium Prize Problem",
-      "url": "https://openai.com/index/navier-stokes-solution",
-      "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
-      "publishedAt": "2026-09-08T10:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "frontier",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -1214,18 +1226,6 @@
       "source": "MIT News",
       "sourceId": "mit",
       "topic": "robotics",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "4e8eac0776c8f1",
-      "title": "Connecting research to policy on Capitol Hill",
-      "url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
-      "summary": "MIT students and postdocs discussed science funding and research with policymakers in Washington during the MIT Science Policy Initiative’s annual Congressional Visit…",
-      "publishedAt": "2026-07-30T20:35:00.000Z",
-      "source": "MIT News",
-      "sourceId": "mit",
-      "topic": "education",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
