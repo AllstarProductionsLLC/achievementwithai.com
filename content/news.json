@@ -1,42 +1,42 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-19T11:03:31.765Z",
-  "checkedAt": "2026-09-19T11:03:31.765Z",
+  "updatedAt": "2026-09-20T11:28:21.598Z",
+  "checkedAt": "2026-09-20T11:28:21.598Z",
   "status": "current",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "status": "ok",
-      "checkedAt": "2026-09-19T11:03:31.765Z",
+      "checkedAt": "2026-09-20T11:28:21.598Z",
       "itemCount": 1210
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "status": "ok",
-      "checkedAt": "2026-09-19T11:03:31.765Z",
+      "checkedAt": "2026-09-20T11:28:21.598Z",
       "itemCount": 100
     },
     {
       "id": "huggingface",
       "name": "Hugging Face",
       "status": "ok",
-      "checkedAt": "2026-09-19T11:03:31.765Z",
+      "checkedAt": "2026-09-20T11:28:21.598Z",
       "itemCount": 862
     },
     {
       "id": "nvidia",
       "name": "NVIDIA",
       "status": "ok",
-      "checkedAt": "2026-09-19T11:03:31.765Z",
+      "checkedAt": "2026-09-20T11:28:21.598Z",
       "itemCount": 14
     },
     {
       "id": "mit",
       "name": "MIT News",
       "status": "ok",
-      "checkedAt": "2026-09-19T11:03:31.765Z",
+      "checkedAt": "2026-09-20T11:28:21.598Z",
       "itemCount": 50
     }
   ],
