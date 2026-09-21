@@ -1966,5 +1966,17 @@
     "topic": "agents",
     "kind": "news",
     "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "7bf2c20eb5a3b5",
+    "title": "5 Companies Using NVIDIA AI for Clean Energy",
+    "url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
+    "summary": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including…",
+    "publishedAt": "2026-09-21T10:00:35.000Z",
+    "source": "NVIDIA",
+    "sourceId": "nvidia",
+    "topic": "science",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
   }
 ]

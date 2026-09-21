@@ -1,46 +1,58 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-20T11:28:21.598Z",
-  "checkedAt": "2026-09-20T11:28:21.598Z",
+  "updatedAt": "2026-09-21T12:52:56.719Z",
+  "checkedAt": "2026-09-21T12:52:56.719Z",
   "status": "current",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "status": "ok",
-      "checkedAt": "2026-09-20T11:28:21.598Z",
+      "checkedAt": "2026-09-21T12:52:56.719Z",
       "itemCount": 1210
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "status": "ok",
-      "checkedAt": "2026-09-20T11:28:21.598Z",
+      "checkedAt": "2026-09-21T12:52:56.719Z",
       "itemCount": 100
     },
     {
       "id": "huggingface",
       "name": "Hugging Face",
       "status": "ok",
-      "checkedAt": "2026-09-20T11:28:21.598Z",
+      "checkedAt": "2026-09-21T12:52:56.719Z",
       "itemCount": 862
     },
     {
       "id": "nvidia",
       "name": "NVIDIA",
       "status": "ok",
-      "checkedAt": "2026-09-20T11:28:21.598Z",
+      "checkedAt": "2026-09-21T12:52:56.719Z",
       "itemCount": 14
     },
     {
       "id": "mit",
       "name": "MIT News",
       "status": "ok",
-      "checkedAt": "2026-09-20T11:28:21.598Z",
+      "checkedAt": "2026-09-21T12:52:56.719Z",
       "itemCount": 50
     }
   ],
   "items": [
+    {
+      "id": "7bf2c20eb5a3b5",
+      "title": "5 Companies Using NVIDIA AI for Clean Energy",
+      "url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
+      "summary": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including…",
+      "publishedAt": "2026-09-21T10:00:35.000Z",
+      "source": "NVIDIA",
+      "sourceId": "nvidia",
+      "topic": "science",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
     {
       "id": "a2f038ddf6ba57",
       "title": "A new chapter for MIT Reads",
@@ -770,18 +782,6 @@
       "source": "MIT News",
       "sourceId": "mit",
       "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "e698148a3f7fc4",
-      "title": "NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier",
-      "url": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/",
-      "summary": "“We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks…",
-      "publishedAt": "2026-09-01T21:19:20.000Z",
-      "source": "NVIDIA",
-      "sourceId": "nvidia",
-      "topic": "agents",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
