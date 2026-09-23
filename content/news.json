@@ -1,46 +1,154 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-22T11:42:50.215Z",
-  "checkedAt": "2026-09-22T11:42:50.215Z",
+  "updatedAt": "2026-09-23T11:41:40.842Z",
+  "checkedAt": "2026-09-23T11:41:40.842Z",
   "status": "current",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "status": "ok",
-      "checkedAt": "2026-09-22T11:42:50.215Z",
-      "itemCount": 1215
+      "checkedAt": "2026-09-23T11:41:40.842Z",
+      "itemCount": 1220
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "status": "ok",
-      "checkedAt": "2026-09-22T11:42:50.215Z",
+      "checkedAt": "2026-09-23T11:41:40.842Z",
       "itemCount": 100
     },
     {
       "id": "huggingface",
       "name": "Hugging Face",
       "status": "ok",
-      "checkedAt": "2026-09-22T11:42:50.215Z",
-      "itemCount": 865
+      "checkedAt": "2026-09-23T11:41:40.842Z",
+      "itemCount": 866
     },
     {
       "id": "nvidia",
       "name": "NVIDIA",
       "status": "ok",
-      "checkedAt": "2026-09-22T11:42:50.215Z",
-      "itemCount": 14
+      "checkedAt": "2026-09-23T11:41:40.842Z",
+      "itemCount": 15
     },
     {
       "id": "mit",
       "name": "MIT News",
       "status": "ok",
-      "checkedAt": "2026-09-22T11:42:50.215Z",
+      "checkedAt": "2026-09-23T11:41:40.842Z",
       "itemCount": 50
     }
   ],
   "items": [
+    {
+      "id": "79f32efd864cd4",
+      "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+      "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+      "summary": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the…",
+      "publishedAt": "2026-09-23T02:30:22.000Z",
+      "source": "NVIDIA",
+      "sourceId": "nvidia",
+      "topic": "creativity",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "5ab59085049100",
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "creativity",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "f9027d80e82068",
+      "title": "Better prompt caching for GPT-6",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "publishedAt": "2026-09-22T21:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "04e315ebdd57f0",
+      "title": "Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research",
+      "url": "https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922",
+      "summary": "Patricia and James Poitras ’63 provide fellowships for graduate students and postdocs who will shape the future of mental health research.",
+      "publishedAt": "2026-09-22T19:00:00.000Z",
+      "source": "MIT News",
+      "sourceId": "mit",
+      "topic": "education",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "73461b3e97af0d",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "publishedAt": "2026-09-22T18:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "33fd00ceaa5855",
+      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+      "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models…",
+      "publishedAt": "2026-09-22T12:00:41.000Z",
+      "source": "NVIDIA",
+      "sourceId": "nvidia",
+      "topic": "agents",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "3fcefd9c665fb2",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior…",
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "finance",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "60efaf744a4d6c",
+      "title": "Priorities and principles for effective third party assessments",
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "creativity",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "e9f63aa1f7aaa0",
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "summary": "",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "source": "Hugging Face",
+      "sourceId": "huggingface",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
     {
       "id": "689d78c6e007ab",
       "title": "Transformers now runs llama.cpp quants",
@@ -126,10 +234,10 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "08ffdb24bebd9a",
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI…",
+      "id": "8fe4474fdbb9c4",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
       "publishedAt": "2026-09-21T12:00:00.000Z",
       "source": "OpenAI",
       "sourceId": "openai",
@@ -138,10 +246,10 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "8fe4474fdbb9c4",
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "id": "08ffdb24bebd9a",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI…",
       "publishedAt": "2026-09-21T12:00:00.000Z",
       "source": "OpenAI",
       "sourceId": "openai",
@@ -563,78 +671,6 @@
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
       "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
       "publishedAt": "2026-09-10T16:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "6a886414536a09",
-      "title": "Now everyone can put data to work",
-      "url": "https://openai.com/index/put-data-to-work",
-      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-      "publishedAt": "2026-09-10T15:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "5d4dbf40361366",
-      "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
-      "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
-      "summary": "AI inference chipmaker d-Matrix today announced it will use NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform…",
-      "publishedAt": "2026-09-10T13:00:21.000Z",
-      "source": "NVIDIA",
-      "sourceId": "nvidia",
-      "topic": "creativity",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "0bb946f0c42153",
-      "title": "Introducing ChatGPT for Financial Services",
-      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "publishedAt": "2026-09-10T07:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "finance",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "3802aa15c4b6ae",
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "url": "https://openai.com/index/expanding-ai-access-us-government",
-      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense…",
-      "publishedAt": "2026-09-10T07:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "b8a75fb67d8179",
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "music",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "b32e9b84713539",
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and…",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
       "source": "OpenAI",
       "sourceId": "openai",
       "topic": "agents",
@@ -1122,18 +1158,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "bf50ec5ce617ac",
-      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "summary": "",
-      "publishedAt": "2026-08-17T19:46:21.000Z",
-      "source": "Hugging Face",
-      "sourceId": "huggingface",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "d8531b3bebbaf6",
       "title": "Introducing Gemini 3.7 Flash",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
@@ -1214,18 +1238,6 @@
       "source": "MIT News",
       "sourceId": "mit",
       "topic": "science",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "3fb8ff13848b4b",
-      "title": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize",
-      "url": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
-      "summary": "Director of CSAIL and MIT professor honored for her contributions to robotics, artificial intelligence, and autonomous systems.",
-      "publishedAt": "2026-07-30T21:00:00.000Z",
-      "source": "MIT News",
-      "sourceId": "mit",
-      "topic": "robotics",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
