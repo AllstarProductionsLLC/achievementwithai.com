@@ -1,46 +1,190 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-23T11:41:40.842Z",
-  "checkedAt": "2026-09-23T11:41:40.842Z",
+  "updatedAt": "2026-09-24T11:50:18.043Z",
+  "checkedAt": "2026-09-24T11:50:18.043Z",
   "status": "current",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "status": "ok",
-      "checkedAt": "2026-09-23T11:41:40.842Z",
-      "itemCount": 1220
+      "checkedAt": "2026-09-24T11:50:18.043Z",
+      "itemCount": 1229
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "status": "ok",
-      "checkedAt": "2026-09-23T11:41:40.842Z",
+      "checkedAt": "2026-09-24T11:50:18.043Z",
       "itemCount": 100
     },
     {
       "id": "huggingface",
       "name": "Hugging Face",
       "status": "ok",
-      "checkedAt": "2026-09-23T11:41:40.842Z",
-      "itemCount": 866
+      "checkedAt": "2026-09-24T11:50:18.043Z",
+      "itemCount": 867
     },
     {
       "id": "nvidia",
       "name": "NVIDIA",
       "status": "ok",
-      "checkedAt": "2026-09-23T11:41:40.842Z",
-      "itemCount": 15
+      "checkedAt": "2026-09-24T11:50:18.043Z",
+      "itemCount": 14
     },
     {
       "id": "mit",
       "name": "MIT News",
       "status": "ok",
-      "checkedAt": "2026-09-23T11:41:40.842Z",
+      "checkedAt": "2026-09-24T11:50:18.043Z",
       "itemCount": 50
     }
   ],
   "items": [
+    {
+      "id": "94b5ec063f5caf",
+      "title": "The promise and peril of using visual AI to study cities",
+      "url": "https://news.mit.edu/2026/studying-cities-using-visual-ai-fabio-duarte-martina-mazzarello-carlo-ratti-fan-zhang-book-0924",
+      "summary": "In their new book, “How AI Sees the City,” the leaders of MIT’s Senseable City Lab examine the technology’s implications for researching…",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "source": "MIT News",
+      "sourceId": "mit",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "30aa7c0acfe7f3",
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "summary": "",
+      "publishedAt": "2026-09-23T18:41:40.000Z",
+      "source": "Hugging Face",
+      "sourceId": "huggingface",
+      "topic": "robotics",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "1043d9fe80283e",
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "publishedAt": "2026-09-23T16:00:57.000Z",
+      "source": "Google DeepMind",
+      "sourceId": "deepmind",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "52e46e8371e1f6",
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "8348f8f60db16b",
+      "title": "MIT welcomes David Siegel SM ’86, PhD ’91 as its next Innovation Fellow",
+      "url": "https://news.mit.edu/2026/mit-welcomes-david-siegel-innovation-fellow-0923",
+      "summary": "Computer scientist, entrepreneur, and philanthropist will collaborate with the MIT Schwarzman College of Computing to advance AI and scientific discovery.",
+      "publishedAt": "2026-09-23T15:30:00.000Z",
+      "source": "MIT News",
+      "sourceId": "mit",
+      "topic": "science",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "721de6922a1a6b",
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "summary": "",
+      "publishedAt": "2026-09-23T15:25:14.000Z",
+      "source": "Google DeepMind",
+      "sourceId": "deepmind",
+      "topic": "music",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "9328fa400dd37e",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "publishedAt": "2026-09-23T13:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "347b65ce144a22",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "52b80abd4e046c",
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "f2ff7f76056120",
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one…",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "creativity",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "4e56c7312349a7",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "agents",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "3d7b9aab56c8f4",
+      "title": "Introducing MentalHealthBench",
+      "url": "https://openai.com/index/introducing-mentalhealthbench",
+      "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+      "publishedAt": "2026-09-23T10:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "science",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
     {
       "id": "79f32efd864cd4",
       "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
@@ -49,6 +193,30 @@
       "publishedAt": "2026-09-23T02:30:22.000Z",
       "source": "NVIDIA",
       "sourceId": "nvidia",
+      "topic": "creativity",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "bb71e409dd7f29",
+      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+      "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+      "publishedAt": "2026-09-23T02:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "finance",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "0765deb1445892",
+      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "url": "https://openai.com/index/airbnb-gpt-6-astra",
+      "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and…",
+      "publishedAt": "2026-09-23T01:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
       "topic": "creativity",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
@@ -426,54 +594,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "6ac27c68838b29",
-      "title": "Reimagining advertising with AI",
-      "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-      "publishedAt": "2026-09-16T13:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "27cd99b1dbe344",
-      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-      "url": "https://openai.com/index/hex-gpt-6-astra",
-      "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "4410122683c569",
-      "title": "How to connect AI usage to business value",
-      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business…",
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "finance",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "7d2872733a6147",
-      "title": "How workers are unlocking new ways of working",
-      "url": "https://openai.com/index/unlocking-new-ways-of-working",
-      "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
-      "publishedAt": "2026-09-16T09:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "creativity",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "0fd4d9111d18e2",
       "title": "Measure by measure, studying society accurately",
       "url": "https://news.mit.edu/2026/studying-society-accurately-naoki-egami-0916",
@@ -558,18 +678,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "7f82d995c515e5",
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "url": "https://openai.com/index/fyxer",
-      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-      "publishedAt": "2026-09-14T12:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "music",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "2898a53d04394e",
       "title": "New method enables AI for safety-critical situations",
       "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
@@ -594,30 +702,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "968c32634dc2a1",
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "4aeb82da9975e2",
-      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code…",
-      "publishedAt": "2026-09-11T16:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "2d0dbb5662da80",
       "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
       "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
@@ -630,18 +714,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "46fcf5bb7b9952",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M…",
-      "publishedAt": "2026-09-11T10:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "c9f232e078296c",
       "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
       "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
@@ -650,30 +722,6 @@
       "source": "NVIDIA",
       "sourceId": "nvidia",
       "topic": "robotics",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "7aa7a69d878311",
-      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
-      "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
-      "summary": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6…",
-      "publishedAt": "2026-09-10T16:00:04.000Z",
-      "source": "NVIDIA",
-      "sourceId": "nvidia",
-      "topic": "robotics",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "39842fa0b34b37",
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-      "publishedAt": "2026-09-10T16:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "agents",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -1134,18 +1182,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "d9524ab76177d5",
-      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "summary": "",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "source": "Hugging Face",
-      "sourceId": "huggingface",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "6aebc1eb2c5ec3",
       "title": "Q&A: Rethinking how innovation happens",
       "url": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0817",
@@ -1214,30 +1250,6 @@
       "source": "MIT News",
       "sourceId": "mit",
       "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "5926ba0167f609",
-      "title": "The benefits of medical AI assistance vary based on user expertise",
-      "url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
-      "summary": "Study finds non-experts deferred to LLM-based diagnostic assistance, even when it was wrong, while clinicians caught AI errors.",
-      "publishedAt": "2026-08-04T09:00:00.000Z",
-      "source": "MIT News",
-      "sourceId": "mit",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "8d2b1b80f2b60b",
-      "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
-      "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
-      "summary": "An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra.",
-      "publishedAt": "2026-08-03T19:50:00.000Z",
-      "source": "MIT News",
-      "sourceId": "mit",
-      "topic": "science",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -1346,30 +1358,6 @@
       "source": "Google DeepMind",
       "sourceId": "deepmind",
       "topic": "creativity",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "8cc1837ba6892f",
-      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "summary": "",
-      "publishedAt": "2026-06-30T16:02:40.000Z",
-      "source": "Google DeepMind",
-      "sourceId": "deepmind",
-      "topic": "creativity",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "72286a4388d15b",
-      "title": "Introducing computer use in Gemini 3.5 Flash",
-      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "summary": "",
-      "publishedAt": "2026-06-24T16:30:01.000Z",
-      "source": "Google DeepMind",
-      "sourceId": "deepmind",
-      "topic": "frontier",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     }
