@@ -1,46 +1,82 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-24T11:50:18.043Z",
-  "checkedAt": "2026-09-24T11:50:18.043Z",
+  "updatedAt": "2026-09-25T11:54:30.504Z",
+  "checkedAt": "2026-09-25T11:54:30.504Z",
   "status": "current",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "status": "ok",
-      "checkedAt": "2026-09-24T11:50:18.043Z",
+      "checkedAt": "2026-09-25T11:54:30.504Z",
       "itemCount": 1229
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "status": "ok",
-      "checkedAt": "2026-09-24T11:50:18.043Z",
+      "checkedAt": "2026-09-25T11:54:30.504Z",
       "itemCount": 100
     },
     {
       "id": "huggingface",
       "name": "Hugging Face",
       "status": "ok",
-      "checkedAt": "2026-09-24T11:50:18.043Z",
-      "itemCount": 867
+      "checkedAt": "2026-09-25T11:54:30.504Z",
+      "itemCount": 868
     },
     {
       "id": "nvidia",
       "name": "NVIDIA",
       "status": "ok",
-      "checkedAt": "2026-09-24T11:50:18.043Z",
-      "itemCount": 14
+      "checkedAt": "2026-09-25T11:54:30.504Z",
+      "itemCount": 12
     },
     {
       "id": "mit",
       "name": "MIT News",
       "status": "ok",
-      "checkedAt": "2026-09-24T11:50:18.043Z",
+      "checkedAt": "2026-09-25T11:54:30.504Z",
       "itemCount": 50
     }
   ],
   "items": [
+    {
+      "id": "972cdcddc42f33",
+      "title": "Estimating suicide risk from text",
+      "url": "https://news.mit.edu/2026/estimating-suicide-risk-from-text-0924",
+      "summary": "A new language-processing tool could help identify the highest-risk individuals from natural language, enabling swifter interventions.",
+      "publishedAt": "2026-09-24T21:00:00.000Z",
+      "source": "MIT News",
+      "sourceId": "mit",
+      "topic": "agents",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "6add3dd6245656",
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "summary": "",
+      "publishedAt": "2026-09-24T16:20:39.000Z",
+      "source": "Google DeepMind",
+      "sourceId": "deepmind",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "280bf64dcca75c",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "summary": "",
+      "publishedAt": "2026-09-24T14:08:57.000Z",
+      "source": "Hugging Face",
+      "sourceId": "huggingface",
+      "topic": "frontier",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
     {
       "id": "94b5ec063f5caf",
       "title": "The promise and peril of using visual AI to study cities",
@@ -463,7 +499,7 @@
     },
     {
       "id": "d2871d486c6127",
-      "title": "How V7 gives AI agents institutional memory",
+      "title": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
       "url": "https://openai.com/index/v7",
       "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
       "publishedAt": "2026-09-21T00:00:00.000Z",
@@ -666,18 +702,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "e52b0024cc5c06",
-      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-      "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
-      "summary": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the…",
-      "publishedAt": "2026-09-14T15:00:52.000Z",
-      "source": "NVIDIA",
-      "sourceId": "nvidia",
-      "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "2898a53d04394e",
       "title": "New method enables AI for safety-critical situations",
       "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
@@ -710,18 +734,6 @@
       "source": "MIT News",
       "sourceId": "mit",
       "topic": "science",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "c9f232e078296c",
-      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
-      "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-      "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t…",
-      "publishedAt": "2026-09-10T16:30:35.000Z",
-      "source": "NVIDIA",
-      "sourceId": "nvidia",
-      "topic": "robotics",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -1158,18 +1170,6 @@
       "attribution": "Publisher feed excerpt"
     },
     {
-      "id": "5ba78b757300e8",
-      "title": "How Much Memory Does Your Agent Actually Need?",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "summary": "",
-      "publishedAt": "2026-08-18T18:09:38.000Z",
-      "source": "Hugging Face",
-      "sourceId": "huggingface",
-      "topic": "agents",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
       "id": "47e5fa4d38e943",
       "title": "When AI art has no author: Study finds generated images often can’t be traced to training data",
       "url": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
@@ -1238,18 +1238,6 @@
       "source": "Google DeepMind",
       "sourceId": "deepmind",
       "topic": "science",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "985f27455e4461",
-      "title": "Solving the solvent problem",
-      "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
-      "summary": "By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option.",
-      "publishedAt": "2026-08-04T18:50:00.000Z",
-      "source": "MIT News",
-      "sourceId": "mit",
-      "topic": "frontier",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     },
@@ -1346,18 +1334,6 @@
       "source": "Google DeepMind",
       "sourceId": "deepmind",
       "topic": "education",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "4e2b1466249cf4",
-      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-      "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
-      "summary": "",
-      "publishedAt": "2026-07-03T14:25:43.000Z",
-      "source": "Google DeepMind",
-      "sourceId": "deepmind",
-      "topic": "creativity",
       "kind": "news",
       "attribution": "Publisher feed excerpt"
     }
