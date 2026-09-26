@@ -1,46 +1,70 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-25T11:54:30.504Z",
-  "checkedAt": "2026-09-25T11:54:30.504Z",
+  "updatedAt": "2026-09-26T11:28:25.883Z",
+  "checkedAt": "2026-09-26T11:28:25.883Z",
   "status": "current",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "status": "ok",
-      "checkedAt": "2026-09-25T11:54:30.504Z",
-      "itemCount": 1229
+      "checkedAt": "2026-09-26T11:28:25.883Z",
+      "itemCount": 1230
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "status": "ok",
-      "checkedAt": "2026-09-25T11:54:30.504Z",
+      "checkedAt": "2026-09-26T11:28:25.883Z",
       "itemCount": 100
     },
     {
       "id": "huggingface",
       "name": "Hugging Face",
       "status": "ok",
-      "checkedAt": "2026-09-25T11:54:30.504Z",
+      "checkedAt": "2026-09-26T11:28:25.883Z",
       "itemCount": 868
     },
     {
       "id": "nvidia",
       "name": "NVIDIA",
       "status": "ok",
-      "checkedAt": "2026-09-25T11:54:30.504Z",
+      "checkedAt": "2026-09-26T11:28:25.883Z",
       "itemCount": 12
     },
     {
       "id": "mit",
       "name": "MIT News",
       "status": "ok",
-      "checkedAt": "2026-09-25T11:54:30.504Z",
+      "checkedAt": "2026-09-26T11:28:25.883Z",
       "itemCount": 50
     }
   ],
   "items": [
+    {
+      "id": "b127abe2bbeb49",
+      "title": "MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma",
+      "url": "https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925",
+      "summary": "The PKG Center for Social Impact expands Code.Tulsa experiential learning program.",
+      "publishedAt": "2026-09-25T20:15:00.000Z",
+      "source": "MIT News",
+      "sourceId": "mit",
+      "topic": "education",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
+    {
+      "id": "9de028fbe46cac",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "publishedAt": "2026-09-25T19:00:00.000Z",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "topic": "agents",
+      "kind": "news",
+      "attribution": "Publisher feed excerpt"
+    },
     {
       "id": "972cdcddc42f33",
       "title": "Estimating suicide risk from text",
@@ -575,18 +599,6 @@
       "url": "https://openai.com/index/model-misalignment-reporting-framework",
       "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
       "publishedAt": "2026-09-16T17:00:00.000Z",
-      "source": "OpenAI",
-      "sourceId": "openai",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "b0366f9850a9d1",
-      "title": "Helping older adults use AI in everyday life",
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills…",
-      "publishedAt": "2026-09-16T16:00:00.000Z",
       "source": "OpenAI",
       "sourceId": "openai",
       "topic": "frontier",
@@ -1213,18 +1225,6 @@
       "publishedAt": "2026-08-12T14:01:59.000Z",
       "source": "Google DeepMind",
       "sourceId": "deepmind",
-      "topic": "frontier",
-      "kind": "news",
-      "attribution": "Publisher feed excerpt"
-    },
-    {
-      "id": "f0885d2d71f199",
-      "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
-      "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
-      "summary": "“GeoPT” helps AI models understand the basics of physics so they can simulate how objects respond to things like wind and water…",
-      "publishedAt": "2026-08-10T19:25:00.000Z",
-      "source": "MIT News",
-      "sourceId": "mit",
       "topic": "frontier",
       "kind": "news",
       "attribution": "Publisher feed excerpt"

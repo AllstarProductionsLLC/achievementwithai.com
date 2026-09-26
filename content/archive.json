@@ -2446,5 +2446,29 @@
     "topic": "frontier",
     "kind": "news",
     "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "b127abe2bbeb49",
+    "title": "MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma",
+    "url": "https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925",
+    "summary": "The PKG Center for Social Impact expands Code.Tulsa experiential learning program.",
+    "publishedAt": "2026-09-25T20:15:00.000Z",
+    "source": "MIT News",
+    "sourceId": "mit",
+    "topic": "education",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
+  },
+  {
+    "id": "9de028fbe46cac",
+    "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+    "url": "https://openai.com/index/proaction",
+    "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+    "publishedAt": "2026-09-25T19:00:00.000Z",
+    "source": "OpenAI",
+    "sourceId": "openai",
+    "topic": "agents",
+    "kind": "news",
+    "attribution": "Publisher feed excerpt"
   }
 ]
