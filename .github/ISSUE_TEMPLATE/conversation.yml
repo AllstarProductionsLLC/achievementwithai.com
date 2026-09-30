@@ -1,0 +1,22 @@
+name: Community conversation
+description: Discuss a post, ask a question, or share a constructive follow-up.
+title: '[Discuss] '
+body:
+  - type: input
+    id: post
+    attributes:
+      label: Post or project URL
+  - type: textarea
+    id: discussion
+    attributes:
+      label: What is on your mind?
+      description: Share your question or idea, with useful context and sources.
+    validations:
+      required: true
+  - type: checkboxes
+    id: conduct
+    attributes:
+      label: Community agreement
+      options:
+        - label: I will be constructive, respect privacy, and follow the community guidelines.
+          required: true

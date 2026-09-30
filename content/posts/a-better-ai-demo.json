@@ -1,0 +1,37 @@
+{
+  "slug": "a-better-ai-demo",
+  "title": "The best demo includes the part that broke.",
+  "category": "Field notes",
+  "summary": "A practical recipe for sharing an AI experiment that someone else can actually learn from.",
+  "tags": [
+    "building",
+    "reproducibility",
+    "guide"
+  ],
+  "theme": "mint",
+  "cover": "SHOW\nTHE MESSY\nMIDDLE.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": true,
+  "featured": false,
+  "body": [
+    {
+      "heading": "Give people a starting point",
+      "text": "State the problem in one sentence. Include the tool or repository, version, setup, and a small public input. Explain what a successful result would look like before you show the output."
+    },
+    {
+      "heading": "Report what happened",
+      "text": "Separate observed results from your hopes. Include a failure case and describe any human corrections. If you report speed or accuracy, describe the measurement and environment so another person can try it."
+    },
+    {
+      "heading": "End with an invitation",
+      "text": "Offer a small next experiment. Invite a specific improvement, such as a clearer setup guide or a second test case. A useful contribution can be a paragraph, not just a polished application."
+    }
+  ],
+  "links": [],
+  "media": []
+}

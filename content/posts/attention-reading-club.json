@@ -1,0 +1,42 @@
+{
+  "slug": "attention-reading-club",
+  "title": "The paper that changed the conversation.",
+  "category": "Research",
+  "summary": "Revisit Attention Is All You Need with three questions to guide your first reading. No PhD-shaped gatekeeping.",
+  "tags": [
+    "research",
+    "transformers",
+    "reading-club"
+  ],
+  "theme": "peach",
+  "cover": "PAY\nATTENTION.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": true,
+  "featured": false,
+  "body": [
+    {
+      "heading": "Start with the original",
+      "text": "The 2017 paper Attention Is All You Need introduced the Transformer, an architecture built around attention rather than recurrence or convolution. Its experiments focused on translation. This is a reading prompt, not a reproduction of its results."
+    },
+    {
+      "heading": "Three questions to take with you",
+      "text": "What does attention let one token learn from another? Why does the model need information about position? Which parts of the architecture can be computed in parallel? Read the figures and the abstract first, then work through one question at a time."
+    },
+    {
+      "heading": "Bring your own explanation",
+      "text": "Submit a short explanation, an original diagram, or a reproducible notebook. Link to the paper and distinguish the authors’ findings from your interpretation. It is completely fine to include an unresolved question."
+    }
+  ],
+  "links": [
+    {
+      "label": "Read the original paper on arXiv",
+      "url": "https://arxiv.org/abs/1706.03762"
+    }
+  ],
+  "media": []
+}

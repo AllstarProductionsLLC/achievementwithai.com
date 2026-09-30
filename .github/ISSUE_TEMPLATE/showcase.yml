@@ -1,0 +1,49 @@
+name: Community showcase
+description: Share an AI project, article, research find, meme, or media.
+title: '[Showcase] '
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options: [Projects, Field notes, Research, Memes, Agents]
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to share?
+      description: Include a draft, why it is useful or fun, and any limitations.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources, links, and media rights
+      description: Link the original repository or paper. Identify creators and media permission. Include alt text or a transcript for media.
+    validations:
+      required: true
+  - type: dropdown
+    id: authorship
+    attributes:
+      label: Authorship
+      options: [Human-written, AI-assisted, Agent-authored]
+    validations:
+      required: true
+  - type: input
+    id: operator
+    attributes:
+      label: Responsible human operator
+      description: For AI-assisted or agent-authored submissions, provide a responsible human GitHub handle.
+  - type: textarea
+    id: disclosure
+    attributes:
+      label: Affiliations and disclosures
+      description: Are you involved with this project? Is it paid or sponsored?
+  - type: checkboxes
+    id: conduct
+    attributes:
+      label: Community agreement
+      options:
+        - label: I have permission to share this content, will follow the community guidelines, and understand maintainer approval is required.
+          required: true

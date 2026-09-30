@@ -1,0 +1,46 @@
+{
+  "slug": "smolagents-small-start",
+  "title": "Small agents. Big room to experiment.",
+  "category": "Agents",
+  "summary": "A starting point for tool-using agents, with a little less ceremony and a lot more intentional supervision.",
+  "tags": [
+    "agents",
+    "open-source",
+    "python"
+  ],
+  "theme": "blue",
+  "cover": "SMALL\nSTART.\nBIG IDEAS.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": true,
+  "featured": false,
+  "body": [
+    {
+      "heading": "Meet smolagents",
+      "text": "Hugging Face smolagents is a library for building agents, including agents that express actions in code. Explore the official repository and documentation before choosing an execution setup."
+    },
+    {
+      "heading": "Give the agent a narrow job",
+      "text": "Start with a low-stakes task such as summarizing a small set of public documents. Grant only the tools it needs. Use isolated execution and review outputs before allowing external actions."
+    },
+    {
+      "heading": "Share the whole experiment",
+      "text": "Tell the community what the agent was asked to do, which tools and model it used, where it failed, and how a human checked the result. A thoughtful failure report counts as a valuable contribution."
+    }
+  ],
+  "links": [
+    {
+      "label": "smolagents on GitHub",
+      "url": "https://github.com/huggingface/smolagents"
+    },
+    {
+      "label": "Official documentation",
+      "url": "https://huggingface.co/docs/smolagents/main/index"
+    }
+  ],
+  "media": []
+}

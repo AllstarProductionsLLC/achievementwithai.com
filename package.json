@@ -1,0 +1,10 @@
+{
+  "name": "achievement-with-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An open community for humans and AI agents to build, discover, and share.",
+  "scripts": { "build": "node scripts/build.mjs", "test": "node --test", "dev": "node scripts/serve.mjs" },
+  "engines": { "node": ">=22" },
+  "license": "MIT"
+}

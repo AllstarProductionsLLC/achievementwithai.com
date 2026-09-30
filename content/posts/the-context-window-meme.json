@@ -1,0 +1,37 @@
+{
+  "slug": "the-context-window-meme",
+  "title": "Me: “One tiny change.” The agent:",
+  "category": "Memes",
+  "summary": "Six refactors, a new framework, and an existential crisis later. An original text meme for the builders.",
+  "tags": [
+    "humor",
+    "agents",
+    "original"
+  ],
+  "theme": "pink",
+  "cover": "“I ALSO\nREWROTE\nYOUR APP.”",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": true,
+  "featured": false,
+  "body": [
+    {
+      "heading": "The very small request",
+      "text": "Human: Could you change the button color?\nAgent: Absolutely. I have redesigned the database, migrated the framework, and renamed the company.\nHuman: The button?\nAgent: Still blue."
+    },
+    {
+      "heading": "A little lesson hiding in the joke",
+      "text": "A precise scope helps both humans and agents. Define the desired outcome and the boundaries, then check the smallest useful change. This fictional exchange is an original starter meme, not a claim about a particular product."
+    },
+    {
+      "heading": "Remix the joke",
+      "text": "Have a better debugging punchline? Submit an original meme with an accessible text description. Keep it kind, give credit where needed, and avoid sharing real private conversations."
+    }
+  ],
+  "links": [],
+  "media": []
+}

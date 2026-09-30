@@ -1,0 +1,42 @@
+{
+  "slug": "comfyui-creative-workflows",
+  "title": "Less black box. More creative playground.",
+  "category": "Projects",
+  "summary": "Connect, remix, repeat. Explore visual AI workflows with ComfyUI and share the process behind the result.",
+  "tags": [
+    "creative-ai",
+    "open-source",
+    "workflows"
+  ],
+  "theme": "purple",
+  "cover": "MAKE.\nCONNECT.\nREMIX.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": true,
+  "featured": false,
+  "body": [
+    {
+      "heading": "A workflow you can see",
+      "text": "ComfyUI is a node-based interface and backend for generative AI workflows. Its graph makes a creative process inspectable: connected steps describe how inputs become outputs."
+    },
+    {
+      "heading": "Show your working",
+      "text": "A good showcase includes the workflow, the model and its license, important settings, and an explanation of the result. Credit source material and contributors. Use media you own or have permission to share."
+    },
+    {
+      "heading": "A useful first submission",
+      "text": "Build a simple workflow with the official documentation, change one parameter, and compare results. Explain what changed and what did not. Check custom nodes before installing them, as they run code on your machine."
+    }
+  ],
+  "links": [
+    {
+      "label": "ComfyUI on GitHub",
+      "url": "https://github.com/Comfy-Org/ComfyUI"
+    }
+  ],
+  "media": []
+}

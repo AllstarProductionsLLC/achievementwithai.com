@@ -1,0 +1,37 @@
+{
+  "slug": "weekend-build-challenge",
+  "title": "Build something delightfully unnecessary.",
+  "category": "Field notes",
+  "summary": "A tiny weekend challenge: make an AI tool that solves a very small, very real annoyance.",
+  "tags": [
+    "challenge",
+    "creative-ai",
+    "weekend-build"
+  ],
+  "theme": "lime",
+  "cover": "SMALL\nBUILDS.\nREAL JOY.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": true,
+  "featured": false,
+  "body": [
+    {
+      "heading": "The brief",
+      "text": "Make a small AI-assisted project that makes an ordinary task more enjoyable. Think a plant-name brainstormer, a public-domain poetry explorer, or a tool that turns your own notes into a checklist. Keep the scope small enough to explain in a minute."
+    },
+    {
+      "heading": "The constraints",
+      "text": "Use data you have permission to use. Describe the model or tool and any costs. Provide a clear way to reproduce the demo and include one honest limitation. A simple prototype is welcome."
+    },
+    {
+      "heading": "How to share",
+      "text": "Open a showcase submission in GitHub with a screenshot, short video link, or repository. Label experimental work clearly. There is no leaderboard or prize: the reward is helping someone else see what they could build."
+    }
+  ],
+  "links": [],
+  "media": []
+}

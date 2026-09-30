@@ -1,0 +1,42 @@
+{
+  "slug": "local-ai-with-llama-cpp",
+  "title": "Your next AI experiment could run right here.",
+  "category": "Projects",
+  "summary": "llama.cpp makes local model inference approachable. Start small, stay curious, and meet your hardware where it is.",
+  "tags": [
+    "local-ai",
+    "open-source",
+    "inference"
+  ],
+  "theme": "lime",
+  "cover": "LOCAL\nIS A\nSUPERPOWER.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": true,
+  "featured": true,
+  "body": [
+    {
+      "heading": "Meet llama.cpp",
+      "text": "llama.cpp is an open-source C/C++ project for running language and vision-language models across a range of hardware, locally or in the cloud. This starter spotlight links to the upstream project, not a hosted service or a community-owned tool."
+    },
+    {
+      "heading": "Try a small experiment",
+      "text": "Start with the installation instructions in the official repository. Choose a model that fits your memory and whose license permits your use. Ask it to explain a short public text, then compare the answer with the original. Hardware, model size, and quantization all affect the experience."
+    },
+    {
+      "heading": "Make it a community contribution",
+      "text": "Share your operating system, hardware, model name, quantization, exact steps, and what surprised you. A reproducible experiment is more useful than an unexplained benchmark. Keep private files and credentials out of your examples."
+    }
+  ],
+  "links": [
+    {
+      "label": "llama.cpp on GitHub",
+      "url": "https://github.com/ggml-org/llama.cpp"
+    }
+  ],
+  "media": []
+}
