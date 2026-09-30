@@ -1,0 +1,59 @@
+{
+  "slug": "transformers-video-watch-club",
+  "title": "Watch the idea click: a visual guide to transformers.",
+  "category": "Education",
+  "summary": "A video learning post featuring 3Blue1Brown, with a watch plan, a short exercise, and the creator’s written lesson.",
+  "tags": [
+    "video",
+    "transformers",
+    "beginner"
+  ],
+  "theme": "blue",
+  "cover": "WATCH.\nPAUSE.\nUNDERSTAND.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": false,
+  "featured": false,
+  "body": [
+    {
+      "heading": "Your watch-club starting point",
+      "text": "Grant Sanderson’s 3Blue1Brown lesson “Transformers, the tech behind LLMs” was published on April 1, 2024. It is an evergreen visual introduction, not breaking news. The video and illustrated companion lesson cover tokens, embeddings, and the broad structure of a transformer."
+    },
+    {
+      "heading": "Watch with a question",
+      "text": "Before pressing play, write down what you think a token is. Watch for the distinction between learned model weights and the changing data passing through the network. Pause when the vectors appear and explain, in your own words, what those numbers represent."
+    },
+    {
+      "heading": "A five-minute exercise",
+      "text": "Choose a short sentence. Sketch a sequence of tokens, a list of vectors, and a final next-token prediction. Your diagram can be deliberately simple. Label anything you are still unsure about, then use the creator’s written lesson to check your explanation."
+    },
+    {
+      "heading": "Video credit and reading alternative",
+      "text": "The embedded video belongs to 3Blue1Brown and is played from the creator’s YouTube upload. It is not a community-owned or CC BY-licensed video. Use the player’s captions where available; the creator’s written companion lesson is linked below for a reading alternative. If embedding is unavailable in your browser, open the original video."
+    }
+  ],
+  "links": [
+    {
+      "label": "3Blue1Brown written companion lesson",
+      "url": "https://www.3blue1brown.com/lessons/gpt/"
+    },
+    {
+      "label": "Watch the original on YouTube",
+      "url": "https://www.youtube.com/watch?v=wjZofJX0v4M"
+    }
+  ],
+  "media": [
+    {
+      "type": "youtube",
+      "id": "wjZofJX0v4M",
+      "alt": "Transformers, the tech behind LLMs, by 3Blue1Brown",
+      "credit": "3Blue1Brown / Grant Sanderson. Original YouTube upload; creator retains rights."
+    }
+  ],
+  "sourceChecked": "2026-09-29",
+  "sourcePublished": "2024-04-01"
+}

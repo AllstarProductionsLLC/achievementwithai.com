@@ -1,20 +1,22 @@
-const cards=[...document.querySelectorAll('.post-card')];
-const buttons=[...document.querySelectorAll('[data-filter]')];
+import {dailyFunIndex, localCalendarDate} from './fun-utils.js';
+const home=document.querySelector('[data-filter-home]');
+const cards=home?[...home.querySelectorAll('.post-card')]:[];
+const buttons=home?[...home.querySelectorAll('[data-filter]')]:[];
 const search=document.querySelector('#search');
 let selected='All';
 function filterPosts(){
  const query=(search?.value||'').trim().toLowerCase();let count=0;
  for(const card of cards){const show=(selected==='All'||card.dataset.category===selected)&&card.dataset.search.includes(query);card.hidden=!show;if(show)count++;}
- for(const b of buttons){b.classList.toggle('active',b.dataset.filter===selected);b.setAttribute('aria-pressed',String(b.dataset.filter===selected));}
+ for(const b of buttons){b.classList.toggle('active',b.dataset.filter===selected);if(b.dataset.filter===selected)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current');}
  if(document.querySelector('#results'))document.querySelector('#results').textContent=`${count} ${count===1?'find':'finds'}${selected==='All'?' in the community collection':' in '+selected}${query?' matching “'+search.value.trim()+'”':''}`;
  if(document.querySelector('#empty-state'))document.querySelector('#empty-state').hidden=count!==0;
 }
 function setCategory(category){selected=buttons.some(b=>b.dataset.filter===category)?category:'All';filterPosts();}
-for(const b of buttons)b.addEventListener('click',()=>{setCategory(b.dataset.filter);const url=new URL(location);selected==='All'?url.searchParams.delete('category'):url.searchParams.set('category',selected);history.replaceState(null,'',url);});
+for(const b of buttons)b.addEventListener('click',event=>{if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();setCategory(b.dataset.filter);const url=new URL(location);selected==='All'?url.searchParams.delete('category'):url.searchParams.set('category',selected);history.replaceState(null,'',url);});
 search?.addEventListener('input',filterPosts);
 document.querySelector('#reset-filters')?.addEventListener('click',()=>{search.value='';setCategory('All');const url=new URL(location);url.searchParams.delete('category');history.replaceState(null,'',url);search.focus();});
 if(cards.length){const c=new URLSearchParams(location.search).get('category');if(c)setCategory(c);}
-addEventListener('popstate',()=>setCategory(new URLSearchParams(location.search).get('category')));
+if(home)addEventListener('popstate',()=>setCategory(new URLSearchParams(location.search).get('category')));
 const canvas=document.querySelector('#network');
 if(canvas){
  const ctx=canvas.getContext('2d');
@@ -31,4 +33,27 @@ if(canvas){
  button.addEventListener('click',()=>{paused=!paused;sync();});
  reduced.addEventListener('change',()=>{paused=reduced.matches;sync();});
  document.addEventListener('visibilitychange',sync);sync();
+}
+
+const funSection=document.querySelector('[data-daily-fun]');
+if(funSection){
+  fetch('/daily-fun.json').then(response=>{if(!response.ok)throw new Error('Fun collection unavailable');return response.json();}).then(data=>{
+    if(!Array.isArray(data.items)||data.items.length===0)throw new Error('No fun entries');
+    const items=data.items;
+    const next=document.querySelector('#next-fun');
+    let day=localCalendarDate(),index=dailyFunIndex(day,items.length);
+    function show(isDaily){
+      const item=items[index];
+      document.querySelector('#fun-title').textContent=item.jokeTitle;
+      document.querySelector('#fun-joke').textContent=item.joke;
+      document.querySelector('#prompt-title').textContent=item.promptTitle;
+      document.querySelector('#fun-prompt').textContent=item.prompt;
+      document.querySelector('#fun-date').textContent=isDaily?`Today's pick · ${day}`:`From the fun collection · ${index+1} of ${items.length}`;
+    }
+    function checkDay(){const now=localCalendarDate();if(now!==day){day=now;index=dailyFunIndex(day,items.length);show(true);}}
+    show(true);next.hidden=false;
+    next.addEventListener('click',()=>{index=(index+1)%items.length;show(false);});
+    document.addEventListener('visibilitychange',()=>{if(!document.hidden)checkDay();});
+    setInterval(checkDay,60000);
+  }).catch(()=>{/* The server-rendered curated pick remains readable. */});
 }

@@ -6,7 +6,7 @@ body:
     id: category
     attributes:
       label: Category
-      options: [Projects, Field notes, Research, Memes, Agents]
+      options: [Projects, Tools, Education, Creativity, Entertainment, Field notes, Research, Memes, Agents, Community]
     validations:
       required: true
   - type: textarea

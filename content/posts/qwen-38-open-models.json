@@ -1,0 +1,43 @@
+{
+  "slug": "qwen-38-open-models",
+  "title": "An open model is an invitation to experiment.",
+  "category": "Projects",
+  "summary": "Qwen3.8 brings another recent model family to the open ecosystem. Start with the model card, then build an experiment you can explain.",
+  "tags": [
+    "open-models",
+    "qwen",
+    "recent-release"
+  ],
+  "theme": "lime",
+  "cover": "OPEN MODELS.\nNEW\nPOSSIBILITIES.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": false,
+  "featured": false,
+  "body": [
+    {
+      "heading": "A recent release to explore",
+      "text": "The Qwen team lists the releases of Qwen3.8-2.4T-A95B on August 12, 2026 and Qwen3.8-27B on August 14, 2026 in its official repository. The model cards are the starting point for weights, license terms, supported usage, and deployment instructions."
+    },
+    {
+      "heading": "Pick a question before picking a model",
+      "text": "Our suggested experiment: use a small public set of questions in a domain you understand, compare outputs with a model you already know, and document errors as carefully as successes. Do not assume that a model runs on your laptop just because its weights are available."
+    },
+    {
+      "heading": "Bring evidence to the collection",
+      "text": "Share the exact model, runtime, hardware or provider, prompts, and evaluation criteria. This is a source-backed discovery, not a hands-on benchmark or a claim that one model is best. Check the current upstream card before downloading."
+    }
+  ],
+  "links": [
+    {
+      "label": "Official Qwen3.8 repository",
+      "url": "https://github.com/QwenLM/Qwen3.8"
+    }
+  ],
+  "media": [],
+  "sourceChecked": "2026-09-29"
+}

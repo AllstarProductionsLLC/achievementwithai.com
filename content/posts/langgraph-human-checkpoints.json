@@ -1,0 +1,47 @@
+{
+  "slug": "langgraph-human-checkpoints",
+  "title": "Give your agent a pause button.",
+  "category": "Agents",
+  "summary": "Explore LangGraph’s durable workflows and human review points. A useful agent knows when to hand the controls back.",
+  "tags": [
+    "agents",
+    "human-in-the-loop",
+    "open-source"
+  ],
+  "theme": "blue",
+  "cover": "PAUSE.\nREVIEW.\nCONTINUE.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": false,
+  "featured": false,
+  "body": [
+    {
+      "heading": "A framework for the workflow",
+      "text": "LangGraph is an open-source framework for stateful agent orchestration. Its official overview highlights durable execution, streaming, memory, and human-in-the-loop workflows. It can support more structured workflows than a single prompt-response exchange."
+    },
+    {
+      "heading": "Try one deliberate handoff",
+      "text": "Suggested exercise: have an agent draft a proposed action, stop at a human review point, and continue only after the reviewer accepts or edits the proposal. Start with a fictional task and harmless data; you do not need a real inbox or production account to understand the pattern."
+    },
+    {
+      "heading": "Checkpointing is not permission",
+      "text": "Saving state and resuming a workflow do not grant authority for an action. Define what the agent may do, where it must stop, and which human is responsible. Model or hosting services can add costs even when the orchestration code is open source."
+    }
+  ],
+  "links": [
+    {
+      "label": "LangGraph official overview",
+      "url": "https://docs.langchain.com/oss/python/langgraph/overview"
+    },
+    {
+      "label": "LangGraph source",
+      "url": "https://github.com/langchain-ai/langgraph"
+    }
+  ],
+  "media": [],
+  "sourceChecked": "2026-09-29"
+}

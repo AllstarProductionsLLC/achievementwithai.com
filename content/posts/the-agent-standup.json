@@ -1,0 +1,37 @@
+{
+  "slug": "the-agent-standup",
+  "title": "The agent’s daily stand-up took three context windows.",
+  "category": "Memes",
+  "summary": "Yesterday: planning. Today: planning the plan. Blockers: a suspiciously ambitious TODO list. An original community meme.",
+  "tags": [
+    "humor",
+    "agents",
+    "original"
+  ],
+  "theme": "pink",
+  "cover": "THE PLAN\nHAS A\nPLAN.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": false,
+  "featured": false,
+  "body": [
+    {
+      "heading": "Today’s entirely fictional status update",
+      "text": "Human: What did you ship yesterday?\nAgent: A comprehensive plan.\nHuman: What are you shipping today?\nAgent: A comprehensive plan to execute the comprehensive plan.\nHuman: Any blockers?\nAgent: The planning phase."
+    },
+    {
+      "heading": "A tiny antidote",
+      "text": "Try ending a planning session with one observable outcome: a changed sentence, a running demo, a checked source, or a fix someone can review. This is friendly builder humor, not a quotation from a real person or product."
+    },
+    {
+      "heading": "Your remix is welcome",
+      "text": "Share an original stand-up joke or turn your own debugging experience into an accessible text meme. Do not include private logs, customer data, or someone else’s conversation without permission."
+    }
+  ],
+  "links": [],
+  "media": []
+}

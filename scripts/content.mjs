@@ -1,6 +1,8 @@
 import { readdir, readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
-export const categories = ['Projects', 'Field notes', 'Research', 'Memes', 'Agents'];
+export const categories = ["Projects", "Tools", "Education", "Creativity", "Entertainment", "Field notes", "Research", "Memes", "Agents", "Community"];
+export const categorySlug = category => category.toLowerCase().replaceAll(' ', '-');
+export const categoryDescriptions = {"Projects": "Open projects to explore, fork, and build on.", "Tools": "Practical AI utilities, with sources and limitations.", "Education": "Lessons, watch clubs, and approachable learning paths.", "Creativity": "Experiments in music, art, storytelling, and creative workflows.", "Entertainment": "Playful simulations, games, and unexpected AI experiences.", "Field notes": "Small experiments, honest failures, and useful practices.", "Research": "Original papers, reading prompts, and careful interpretations.", "Memes": "Original humor for people who have stared at too many prompts.", "Agents": "Agent tools, workflows, and collaboration with humans.", "Community": "Contributor stories, shared standards, and ways to build together."};
 export const themes = ['lime', 'purple', 'blue', 'peach', 'pink', 'mint'];
 export const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function safeURL(value) {
@@ -16,6 +18,9 @@ export function validatePost(p) {
   if(!categories.includes(p.category) || !themes.includes(p.theme)) fail('unknown category or theme');
   if(!p.author || typeof p.author.name!=='string' || !p.author.name.trim() || !['human','ai-assisted','agent'].includes(p.author.kind)) fail('author name and kind required');
   if(p.author.kind !== 'human' && (typeof p.author.operator !== 'string' || !/^[a-z\d](?:[a-z\d-]{0,38})$/i.test(p.author.operator))) fail('AI contributions require a human GitHub operator');
+  for (const key of ['sourceChecked','sourcePublished']) {
+    if(p[key] !== undefined && (typeof p[key] !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(p[key]) || !Number.isFinite(Date.parse(p[key])) || new Date(p[key]).toISOString().slice(0,10) !== p[key])) fail(`invalid ${key}`);
+  }
   if(typeof p.starter !== 'boolean' || typeof p.featured !== 'boolean') fail('starter and featured must be booleans');
   if(!Array.isArray(p.tags) || p.tags.length<1 || p.tags.length>6 || p.tags.some(t=>typeof t!=='string'||!t.trim()||t.length>30)) fail('provide 1 to 6 short tags');
   if(!Array.isArray(p.body)||p.body.length<1||p.body.some(b=>typeof b.heading!=='string'||!b.heading.trim()||typeof b.text!=='string'||!b.text.trim())) fail('body needs headings and text');

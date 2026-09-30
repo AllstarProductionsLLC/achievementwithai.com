@@ -1,0 +1,43 @@
+{
+  "slug": "ai-town-character-playground",
+  "title": "A tiny town with a very unusual cast.",
+  "category": "Entertainment",
+  "summary": "AI Town is an open-source starter kit for simulated characters that chat and socialize. Bring a story idea, not a belief that the characters are alive.",
+  "tags": [
+    "games",
+    "simulation",
+    "open-source"
+  ],
+  "theme": "purple",
+  "cover": "SMALL TOWN.\nBIG\nCHARACTERS.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": false,
+  "featured": false,
+  "body": [
+    {
+      "heading": "A playful project to explore",
+      "text": "AI Town from a16z-infra is a MIT-licensed starter kit for a virtual town of AI characters. Its repository describes a customizable simulation, using Convex for shared state and a configurable language-model setup."
+    },
+    {
+      "heading": "Give the town a premise",
+      "text": "Our suggested creative exercise: invent a town of overly enthusiastic librarians arguing about the best way to organize a shelf. Define fictional characters, let a short scene unfold, and note which interactions feel coherent or surprising."
+    },
+    {
+      "heading": "Simulation, with a budget",
+      "text": "Generated dialogue is fiction and does not demonstrate consciousness or a character’s real feelings. Review the current setup, service dependencies, model costs, and asset licenses before running or publishing your own version. This spotlight is an invitation to explore, not a hosted town on this site."
+    }
+  ],
+  "links": [
+    {
+      "label": "AI Town source and setup",
+      "url": "https://github.com/a16z-infra/ai-town"
+    }
+  ],
+  "media": [],
+  "sourceChecked": "2026-09-29"
+}

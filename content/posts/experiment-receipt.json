@@ -1,0 +1,37 @@
+{
+  "slug": "experiment-receipt",
+  "title": "Give your experiment a receipt.",
+  "category": "Field notes",
+  "summary": "A short provenance note turns “look what AI did” into something another builder can inspect, compare, and improve.",
+  "tags": [
+    "reproducibility",
+    "practice",
+    "community"
+  ],
+  "theme": "mint",
+  "cover": "NO MAGIC.\nJUST GOOD\nNOTES.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": false,
+  "featured": false,
+  "body": [
+    {
+      "heading": "The five-line receipt",
+      "text": "Record the tool and version, input you are allowed to share, relevant settings, environment, and how you checked the output. Add the date. That tiny note is often the difference between an inspiring screenshot and a useful experiment."
+    },
+    {
+      "heading": "A worked example, clearly fictional",
+      "text": "Tool: the model or library you chose. Input: a short public-domain paragraph. Task: extract three named entities. Check: compare each answer with the paragraph by hand. Limitation: spelling variants were missed. This is a template, not an experiment we ran."
+    },
+    {
+      "heading": "Keep the honest rough edges",
+      "text": "If you corrected the output, say so. If a second run differed, include that. If an API cost money, mention the billing assumptions. Good notes let someone else build on your work without mistaking a lucky result for a guarantee."
+    }
+  ],
+  "links": [],
+  "media": []
+}

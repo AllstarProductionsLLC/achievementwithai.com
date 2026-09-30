@@ -9,12 +9,13 @@ Production domain, after deployment: https://achievementwithai.com
 ## This first version
 
 - A responsive, graphite-and-lime community home with an animated network and reduced-motion support.
-- Eight clearly labeled, AI-assisted starter posts, category filters, and search.
+- Twenty AI-assisted editorial posts across ten categories, with searchable filters and shareable category pages.
 - Static article pages with canonical URLs and Open Graph metadata.
-- Images, local video with transcripts, YouTube embeds, and source/repository links.
+- Images, local video with transcripts, a real 3Blue1Brown education video embed, and source/repository links.
+- A Daily dose of fun with seven original jokes and creative prompts, rotating by local calendar date.
 - Public human and agent contribution guides; discussion via GitHub issues and PRs.
 - JSON Feed, RSS, `llms.txt`, content schema, robots.txt, and sitemap.
-- Content validation, CI, issue templates, PR checklist, CODEOWNERS, and moderation guidance.
+- Content validation, CI, issue templates, PR checklist, CODEOWNERS, and moderation guidance for future human teams and AI helpers.
 
 No database, paid API, secrets, or build dependencies are required. This is a GitHub-reviewed publishing community, not a live chat or self-publishing social network. There are no invented votes, users, or rankings.
 
@@ -62,6 +63,7 @@ AI agents should read [AGENTS.md](AGENTS.md). Seed entries are AI-assisted examp
 
 ```text
 content/posts/       Reviewed source entries
+content/daily-fun.json Curated original jokes and creative prompts
 public/              Styles, interaction code, icons, schema, agent guide, media
 scripts/build.mjs    Static HTML, article pages, feeds, sitemap
 scripts/content.mjs  Validation and escaping
@@ -73,3 +75,14 @@ tests/               Content and build checks
 ## Licensing
 
 Site code: [MIT](LICENSE). Original community text and media: [CC BY 4.0](CONTENT_LICENSE.md). Third-party tools, models, papers, and assets retain their own licenses. Linking a project does not imply affiliation or endorsement.
+
+
+## Expanded collection
+
+Projects, Tools, Education, Creativity, Entertainment, Field notes, Research, Memes, Agents, and Community each have a category page under `/topics/`. The homepage filters without a reload, with category links providing a fallback when JavaScript is off. Fresh discoveries include Qwen3.8, MarkItDown, LangExtract, and the BabelArena preprint; posts credit original sources and distinguish documentation review from hands-on testing.
+
+The education watch-club post embeds the creator's original 3Blue1Brown video. Third-party video rights are retained by the creator. The page includes an original learning activity, a written companion link, and a direct watch link if an embed is blocked.
+
+Daily fun is a reviewed seven-entry rotation, not a promise of newly published content each day. Browser code chooses the daily pick using the visitor's local date and supports browsing the collection. No automation, database, or model API is needed.
+
+Future AI moderation helpers are described in `GOVERNANCE.md` and on the community page. They would assist human moderators with evidence-based recommendations. No bot is active or granted merge authority by this change.

@@ -1,0 +1,44 @@
+{
+  "slug": "babelarena-multilingual-agents",
+  "title": "Does your agent work beyond English?",
+  "category": "Research",
+  "summary": "A September 2026 preprint puts multilingual agent workflows under the microscope. The interesting question is how failure changes across languages.",
+  "tags": [
+    "research",
+    "multilingual",
+    "agents"
+  ],
+  "theme": "peach",
+  "cover": "SAME TASK.\nDIFFERENT\nLANGUAGE.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": false,
+  "featured": false,
+  "body": [
+    {
+      "heading": "A new reading-club pick",
+      "text": "BabelArena: A Large-Scale Multilingual Benchmark for LLM Agents is a September 20, 2026 arXiv preprint by Peng Kuang and collaborators. Its abstract describes a workflow for adapting agent benchmarks across languages and a collection covering 23 languages."
+    },
+    {
+      "heading": "What the authors report",
+      "text": "The abstract reports disparities in tool use, task execution, and token consumption across languages, alongside differences in language consistency. These are the authors’ findings in their benchmark setup, not results reproduced by this community. A preprint is preliminary research, not a universal verdict on a model."
+    },
+    {
+      "heading": "A useful community follow-up",
+      "text": "Try a small, public, low-stakes workflow in languages you or your collaborators can evaluate. Keep the intended task and scoring criteria aligned, and document translation choices. Ask whether failures come from understanding, tool arguments, or the execution plan."
+    }
+  ],
+  "links": [
+    {
+      "label": "BabelArena original arXiv abstract",
+      "url": "https://arxiv.org/abs/2609.23490"
+    }
+  ],
+  "media": [],
+  "sourceChecked": "2026-09-29",
+  "sourcePublished": "2026-09-20"
+}
