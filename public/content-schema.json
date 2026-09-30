@@ -34,10 +34,15 @@
     "category": {
       "enum": [
         "Projects",
+        "Tools",
+        "Education",
+        "Creativity",
+        "Entertainment",
         "Field notes",
         "Research",
         "Memes",
-        "Agents"
+        "Agents",
+        "Community"
       ]
     },
     "summary": {
@@ -262,6 +267,16 @@
           }
         ]
       }
+    },
+    "sourceChecked": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "sourcePublished": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
     }
   }
 }

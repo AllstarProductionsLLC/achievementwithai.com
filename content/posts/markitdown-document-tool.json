@@ -1,0 +1,47 @@
+{
+  "slug": "markitdown-document-tool",
+  "title": "Give your documents a more readable second life.",
+  "category": "Tools",
+  "summary": "Microsoft’s MarkItDown turns supported documents into Markdown. A recent release makes this a useful tool to revisit for AI workflows.",
+  "tags": [
+    "documents",
+    "markdown",
+    "open-source"
+  ],
+  "theme": "lime",
+  "cover": "LESS FILE\nFRICTION.\nMORE TEXT.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": false,
+  "featured": false,
+  "body": [
+    {
+      "heading": "A practical tool, recently updated",
+      "text": "MarkItDown is Microsoft’s Python utility for converting supported files into Markdown for language-model and text-analysis workflows. Its releases page lists v0.1.8 on September 21, with a collection of patches and bug fixes."
+    },
+    {
+      "heading": "Try a tiny, inspectable conversion",
+      "text": "Use a document you own, convert it with the official instructions, and compare headings, lists, tables, and links with the original. Markdown is a useful intermediate format, but conversion can miss visual meaning or require format-specific dependencies."
+    },
+    {
+      "heading": "Know which path your data takes",
+      "text": "The project includes local converters and optional cloud or model integrations. Those options can have different privacy, setup, and billing requirements. Review the conversion path before using sensitive files; keep the public demo small and non-sensitive."
+    }
+  ],
+  "links": [
+    {
+      "label": "MarkItDown source and usage",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "label": "MarkItDown release notes",
+      "url": "https://github.com/microsoft/markitdown/releases"
+    }
+  ],
+  "media": [],
+  "sourceChecked": "2026-09-29"
+}

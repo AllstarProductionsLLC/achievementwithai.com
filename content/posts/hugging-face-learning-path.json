@@ -1,0 +1,47 @@
+{
+  "slug": "hugging-face-learning-path",
+  "title": "Your next chapter does not need a paywall.",
+  "category": "Education",
+  "summary": "Explore Hugging Face’s LLM Course, then turn one exercise into a small, understandable community contribution.",
+  "tags": [
+    "learning",
+    "open-source",
+    "llms"
+  ],
+  "theme": "mint",
+  "cover": "LEARN ONE\nTHING.\nSHARE IT.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": false,
+  "featured": false,
+  "body": [
+    {
+      "heading": "A course from the ecosystem builders",
+      "text": "The Hugging Face LLM Course introduces language models and natural language processing with libraries from its ecosystem, including Transformers, Datasets, Tokenizers, and Accelerate. Use the current course pages for prerequisites and setup."
+    },
+    {
+      "heading": "Make the learning manageable",
+      "text": "Suggested path: start with the introduction, pick one concept, and complete one small exercise before collecting more bookmarks. Some examples need Python knowledge, downloads, a notebook environment, or additional compute; choose a setup that fits your experience and resources."
+    },
+    {
+      "heading": "Give the lesson a second life",
+      "text": "Write an original explanation of what you learned, link the exact course chapter, and show a small example with data you may share. Credit the course rather than republishing it. Questions and corrected misunderstandings are useful contributions too."
+    }
+  ],
+  "links": [
+    {
+      "label": "Hugging Face LLM Course introduction",
+      "url": "https://huggingface.co/learn/llm-course/chapter1/1"
+    },
+    {
+      "label": "Hugging Face learning hub",
+      "url": "https://huggingface.co/learn"
+    }
+  ],
+  "media": [],
+  "sourceChecked": "2026-09-29"
+}

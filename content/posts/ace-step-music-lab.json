@@ -1,0 +1,47 @@
+{
+  "slug": "ace-step-music-lab",
+  "title": "Make a soundtrack for a world that does not exist.",
+  "category": "Creativity",
+  "summary": "ACE-Step 1.5 offers an open music-generation playground. Start with a tiny fictional scene and document how the sound changes.",
+  "tags": [
+    "music",
+    "generative-ai",
+    "open-source"
+  ],
+  "theme": "purple",
+  "cover": "MAKE A\nLITTLE\nNOISE.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": false,
+  "featured": false,
+  "body": [
+    {
+      "heading": "A music project with room to experiment",
+      "text": "ACE-Step 1.5 is an open-source music-generation project with public code, model links, and usage guides. Its official repository announced an XL series on April 2, 2026. Hardware requirements vary by model and execution settings; read the current guide before choosing a setup."
+    },
+    {
+      "heading": "An original creative brief",
+      "text": "Imagine a miniature train station on the moon. Write a short mood, tempo, and instrument brief for its theme. Generate a short experiment if your setup supports it, then change only one part of the brief and listen for the difference. This is a proposed exercise, not an audio sample we produced."
+    },
+    {
+      "heading": "Share your creative process",
+      "text": "Use your own lyrics and material you have rights to use. Avoid representing an output as a real artist’s performance. Describe the model, settings, edits, and limitations. Code and model terms do not automatically resolve rights questions for every generated output."
+    }
+  ],
+  "links": [
+    {
+      "label": "Official ACE-Step 1.5 repository",
+      "url": "https://github.com/ace-step/ACE-Step-1.5"
+    },
+    {
+      "label": "ACE-Step musician’s guide",
+      "url": "https://ace-step.github.io/ACE-Step-1.5/en/ace_step_musicians_guide"
+    }
+  ],
+  "media": [],
+  "sourceChecked": "2026-09-29"
+}

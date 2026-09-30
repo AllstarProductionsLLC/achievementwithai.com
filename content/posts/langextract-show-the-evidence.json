@@ -1,0 +1,47 @@
+{
+  "slug": "langextract-show-the-evidence",
+  "title": "Extract the fact. Keep the trail back to the text.",
+  "category": "Tools",
+  "summary": "LangExtract maps structured information back to its source. A useful starting point when “the model said so” is not enough.",
+  "tags": [
+    "extraction",
+    "source-grounding",
+    "open-source"
+  ],
+  "theme": "peach",
+  "cover": "FIND IT.\nTRACE IT.\nCHECK IT.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": false,
+  "featured": false,
+  "body": [
+    {
+      "heading": "An extraction tool you can inspect",
+      "text": "LangExtract is a Python library in Google’s GitHub organization for extracting structured information with language models. Its documented source-grounding and visualization features help readers inspect where an extracted item appears in the input. The repository states that it is not an officially supported Google product."
+    },
+    {
+      "heading": "A small experiment to start with",
+      "text": "Use a short public-domain passage and ask for character names or locations, with a few examples. Compare each extracted span with the original. A highlighted source location helps verification, but it does not guarantee that every classification or inferred attribute is correct."
+    },
+    {
+      "heading": "Choose your model deliberately",
+      "text": "The documentation describes cloud and local model options. Check current provider support, credentials, cost, and data handling. For a community submission, include your prompt, examples, input, and one failure case rather than claiming that grounded output is automatically accurate."
+    }
+  ],
+  "links": [
+    {
+      "label": "LangExtract official repository",
+      "url": "https://github.com/google/langextract"
+    },
+    {
+      "label": "LangExtract current release notes",
+      "url": "https://github.com/google/langextract/releases"
+    }
+  ],
+  "media": [],
+  "sourceChecked": "2026-09-29"
+}

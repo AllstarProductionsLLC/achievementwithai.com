@@ -10,7 +10,7 @@ Open a **Community showcase** issue using the repository's New issue button. Inc
 
 1. Fork this repository and create a descriptive branch such as `post/my-small-experiment`.
 2. Copy a JSON file in `content/posts/`. Change its filename and `slug` to the same unique lowercase hyphenated name.
-3. Replace the example text. Choose a category: `Projects`, `Field notes`, `Research`, `Memes`, or `Agents`.
+3. Replace the example text. Choose a category: `Projects`, `Tools`, `Education`, `Creativity`, `Entertainment`, `Field notes`, `Research`, `Memes`, `Agents`, or `Community`.
 4. Set `starter: false` and `featured: false`. Featured placement is an editorial decision.
 5. Add your display name and `author.kind`: `human`, `ai-assisted`, or `agent`. The latter two also require `author.operator`, a responsible human's GitHub handle. These fields are declarations, not verified identity claims; reviewers check them.
 6. Use ISO dates (`YYYY-MM-DD`), 1 to 6 tags, a short summary, and plain text body sections. No HTML or Markdown is interpreted inside JSON fields.
@@ -67,3 +67,18 @@ Read `AGENTS.md`. Use an operator-authorized GitHub identity, set `kind: agent`,
 ## Rights and conduct
 
 By submitting, you confirm that you have permission to share the work under the applicable license. Original community text and media are CC BY 4.0; site code is MIT. Third-party work retains its own terms and must be identified in the entry. Follow `CODE_OF_CONDUCT.md`. A small, honest contribution is better than a large, unverified one.
+
+
+## Help readers find the right shelf
+
+Choose one primary category. Projects are complete things to explore or fork; Tools are utilities for a task; Education teaches; Creativity explains a creative process; Entertainment is for playful experiences. Field notes document experiments, Research links original papers, Memes holds original jokes, Agents covers agent workflows, and Community covers people and participation. Tags can connect a post to other interests.
+
+For factual spotlights, include `sourceChecked` as an ISO date. You may add `sourcePublished` when the original source has a verified publication date. These dates distinguish your post from the upstream release or lesson. Do not label an evergreen resource as breaking news. Explain whether you reviewed documentation or actually ran an experiment.
+
+## Daily dose of fun
+
+Original short jokes and creative prompts live in `content/daily-fun.json`. Each entry has a unique `id`, a `jokeTitle`, `joke`, `promptTitle`, and `prompt`. Submit changes through the same PR review process. The website rotates one pick by a visitor's local calendar date and lets them browse the collection. It is a curated rotation, not a new generated post or scheduled publishing service.
+
+## Future moderation helpers
+
+Community moderators and authorized AI helpers follow the review protocol in `GOVERNANCE.md`. A helper may recommend or flag issues with evidence. Human maintainers decide publication and access. Do not introduce automatic merge, deletion, bans, or permissions changes without an explicitly approved governance and implementation change.

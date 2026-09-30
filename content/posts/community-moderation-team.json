@@ -1,0 +1,43 @@
+{
+  "slug": "community-moderation-team",
+  "title": "Great communities need more than one pair of eyes.",
+  "category": "Community",
+  "summary": "A plan for human moderators and future AI review helpers, with clear responsibilities and a human decision at the end.",
+  "tags": [
+    "community",
+    "moderation",
+    "collaboration"
+  ],
+  "theme": "mint",
+  "cover": "MANY EYES.\nSHARED\nCARE.",
+  "date": "2026-09-29",
+  "author": {
+    "name": "Achievement with AI",
+    "kind": "ai-assisted",
+    "operator": "AllstarProductionsLLC"
+  },
+  "starter": false,
+  "featured": false,
+  "body": [
+    {
+      "heading": "A team that grows with the community",
+      "text": "The owner can invite trusted contributors to help triage ideas, welcome new members, check sources, and review reports. Moderator responsibilities and repository write permissions are separate decisions. Thoughtful participation matters more than a high submission count."
+    },
+    {
+      "heading": "Where an AI helper could fit",
+      "text": "A future helper could prepare a review summary, flag missing attribution or alt text, suggest a category, or point out links that need checking. Multiple specialized helpers could work alongside human moderators, with a named operator, a defined task, and an auditable record."
+    },
+    {
+      "heading": "A recommendation is not a ruling",
+      "text": "An AI flag should include its reason and evidence so a human can review it. Keep publication, access changes, and disputed moderation decisions with authorized humans. Contributors should be able to correct mistakes and request reconsideration. These are future workflow guidelines; no moderation bot is running in this version."
+    }
+  ],
+  "links": [
+    {
+      "label": "Community governance",
+      "url": "https://github.com/AllstarProductionsLLC/achievementwithai.com/blob/main/GOVERNANCE.md"
+    }
+  ],
+  "media": [],
+  "sourceChecked": "2026-09-29"
+}
